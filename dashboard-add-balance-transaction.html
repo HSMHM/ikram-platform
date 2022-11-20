@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Escroc</title>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;0,500;0,600;0,700;1,600&display=swap"
+        rel="stylesheet">
+    <!-- fontawesome css link -->
+    <link rel="stylesheet" href="assets/css/fontawesome-all.min.css">
+    <!-- bootstrap css link -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!-- favicon -->
+    <link rel="shortcut icon" href="assets/images/logo/fav.ico" type="image/x-icon">
+    <!-- swipper css link -->
+    <link rel="stylesheet" href="assets/css/swiper.min.css">
+    <!-- lightcase css links -->
+    <link rel="stylesheet" href="assets/css/lightcase.css">
+    <!-- line-awesome-icon css -->
+    <link rel="stylesheet" href="assets/css/line-awesome.min.css">
+    <!-- animate.css -->
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <!-- main style css link -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Asos CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- chosen CSS -->
+    <link rel="stylesheet" href="assets/css/chosen.css" />
+    <!-- nice-select -->
+    <link rel="stylesheet" href="assets/css/nice-select.css">
+</head>
+
+<body>
+
+
+    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        Start Page-wrapper
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+    <div class="page-wrapper">
+        <div class="sidebar">
+            <div class="sidebar__inner">
+                <div class="sidebar-top-inner">
+                    <div class="sidebar__logo">
+                        <a href="index.html" class="sidebar__main-logo">
+                            <img src="assets/images/logo/logo.png" alt="logo">
+                        </a>
+                        <div class="navbar__left">
+                            <button class="sidebar-mobile-menu text-white">
+                                <i class="las fa-bars"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="sidebar__menu-wrapper">
+                        <ul class="sidebar__menu p-0">
+                            <li class="sidebar-menu-item ">
+                                <a href="dashboard.html">
+                                    <i class="menu-icon las la-home"></i>
+                                    <span class="menu-title">Dashboard</span>
+                                </a>
+                            </li>
+                            <li class="sidebar-menu-item ">
+                                <a href="dashboard-escroc-list.html">
+                                    <i class="menu-icon las la-handshake"></i>
+                                    <span class="menu-title">My Escrow</span>
+                                </a>
+                            </li>
+                            <li class="sidebar-menu-item active">
+                                <a href="dashboard-add-balance.html">
+                                    <i class="menu-icon las las la-coins"></i>
+                                    <span class="menu-title">Add Balance</span>
+                                </a>
+                            </li>
+                            <li class="sidebar-menu-item ">
+                                <a href="dashboard-money-out.html">
+                                    <i class="menu-icon las la-hand-holding-usd"></i>
+                                    <span class="menu-title">Money Out</span>
+                                </a>
+                            </li>
+                            <li class="sidebar-menu-item ">
+                                <a href="dashboard-transaction.html">
+                                    <i class="menu-icon las la-cloud-upload-alt"></i>
+                                    <span class="menu-title">Transaction</span>
+                                </a>
+                            </li>
+
+                            <li class="sidebar-menu-item">
+                                <a href="dashboard-support.html">
+                                    <i class="menu-icon las la-question-circle"></i>
+                                    <span class="menu-title">Support</span>
+                                </a>
+                            </li>
+                            <li class="sidebar-menu-item">
+                                <a href="dashboard-kyc-verification.html">
+                                    <i class="menu-icon las fa-solid fa-user-check"></i>
+                                    <span class="menu-title">Kyc Verification</span>
+                                </a>
+                            </li>
+                            <li class="sidebar-menu-item">
+                                <a href="dashboard-2fa.html">
+                                    <i class="menu-icon las la-shield-alt"></i>
+                                    <span class="menu-title">2FA Security</span>
+                                </a>
+                            </li>
+                            <li class="sidebar-menu-item">
+                                <a href="dashboard-password-change.html">
+                                    <i class="menu-icon las la-key"></i>
+                                    <span class="menu-title">Change Password</span>
+                                </a>
+                            </li>
+                            <li class="sidebar-menu-item">
+                                <a href="#">
+                                    <i class="menu-icon las la-sign-out-alt"></i>
+                                    <span class="menu-title">Logout</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="copyright-wrapper">
+                    <div class="social-area">
+                        <ul class="copyright-social p-0">
+                            <li><a href="#0"><i class="lab la-facebook-f"></i></a></li>
+                            <li class="active"><a href="#0" class="active"><i class="lab la-twitter"></i></a></li>
+                            <li><a href="#0"><i class="lab la-instagram"></i></a></li>
+                            <li><a href="#0"><i class="lab la-linkedin-in"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="copyright-area">
+                        <p>Copyright © 2022 <a href="#0">Escroc</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main-wrapper">
+            <div class="main-body-wrapper">
+                <!-- navbar-wrapper-start -->
+                <nav class="navbar-wrapper">
+                    <div class="navbar-wrapper-area">
+                        <div class="dashboard-title-part d-flex">
+                            <div class="navbar__left my-auto">
+                                <button class="navbar__expand ps-0 pe-3">
+                                    <i class="las fa-bars"></i>
+                                </button>
+                            </div>
+                            <h4 class="title">Dashboard</h4>
+                        </div>
+                        <div class="navbar__right ">
+                            <ul class="navbar__action-list" style="list-style: none;">
+                                <li class="dropdown">
+                                    <button type="button" class="" data-bs-toggle="dropdown" data-display="static"
+                                        aria-haspopup="true" aria-expanded="false">
+                                        <span class="navbar-user">
+                                            <span class="navbar-user__thumb"><img
+                                                    src="assets/images/client/client-2.jpg" alt="user"></span>
+                                            <span class="navbar-user__info">
+                                                <span class="navbar-user__name">John Sullivan</span>
+                                            </span>
+                                            <span class="icon"><i class="las la-chevron-circle-down"></i></span>
+                                        </span>
+                                    </button>
+                                    <div
+                                        class="dropdown-menu dropdown-menu--sm p-0 border-0 box--shadow1 dropdown-menu-right">
+                                        <a href="dashboard-user-profile.html"
+                                            class="dropdown-menu__item d-flex align-items-center ps-3 pe-3 pt-2 pb-2">
+                                            <i class="dropdown-menu__icon las la-user-circle"></i>
+                                            <span class="dropdown-menu__caption">Profile</span>
+                                        </a>
+                                        <a href="dashboard-password-change.html"
+                                            class="dropdown-menu__item d-flex align-items-center ps-3 pe-3 pt-2 pb-2">
+                                            <i class="dropdown-menu__icon las la-key"></i>
+                                            <span class="dropdown-menu__caption">Password</span>
+                                        </a>
+                                        <a href="#0"
+                                            class="dropdown-menu__item d-flex align-items-center ps-3 pe-3 pt-2 pb-2">
+                                            <i class="dropdown-menu__icon las la-sign-out-alt"></i>
+                                            <span class="dropdown-menu__caption">Logout</span>
+                                        </a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+                <!-- body-wrapper-start -->
+                <div class="body-wrapper">
+
+                    <div class="table-content">
+                        <div class="row">
+                            <div class="header-title">
+                                <div class="top-title">
+                                    <h3> <span>Welcome Back,</span> John Sullivan</h3>
+                                </div>
+                                <!-- table -->
+                                <div class="table-area pt-20 pb-30">
+                                    <div class="dash-section-title">
+                                        <h4>Balance Transactions</h4>
+                                    </div>
+                                    <div class="row justify-content-center">
+                                        <div class="col-xl-12">
+                                            <div class="table-area">
+                                                <table class="custom-table">
+                                                    <thead>
+                                                        <tr>
+                                                            <th>Trx</th>
+                                                            <th>Gateway</th>
+                                                            <th>Amount</th>
+                                                            <th>Status</th>
+                                                            <th>Date</th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr>
+                                                            <td data-label="Trx ID">GTSFG33S46G6E</td>
+                                                            <td data-label="Details">Bank Wire</td>
+                                                            <td data-label="Amount">$120</td>
+                                                            <td data-label="Status"><span
+                                                                    class="status--btn">Pending</span>
+                                                            </td>
+                                                            <td data-label="Date"><i
+                                                                    class="fas fa-calendar me-2"></i>08-10-2022
+                                                                / 08:59 AM
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td data-label="Trx ID">GTSFG33S46G6E</td>
+                                                            <td data-label="Details">Bank Wire</td>
+                                                            <td data-label="Amount">$120</td>
+                                                            <td data-label="Status"><span
+                                                                    class="status--btn status--btn-2">Completed</span>
+                                                            </td>
+                                                            <td data-label="Date"><i
+                                                                    class="fas fa-calendar me-2"></i>08-10-2022
+                                                                / 08:59 AM
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td data-label="Trx ID">GTSFG33S46G6E</td>
+                                                            <td data-label="Details">Bank Wire</td>
+                                                            <td data-label="Amount">$120</td>
+                                                            <td data-label="Status"><span
+                                                                    class="status--btn">Pending</span>
+                                                            </td>
+                                                            <td data-label="Date"><i
+                                                                    class="fas fa-calendar me-2"></i>08-10-2022
+                                                                / 08:59 AM
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td data-label="Trx ID">GTSFG33S46G6E</td>
+                                                            <td data-label="Details">Bank Wire</td>
+                                                            <td data-label="Amount">$120</td>
+                                                            <td data-label="Status"><span
+                                                                    class="status--btn status--btn-2">Completed</span>
+                                                            </td>
+                                                            <td data-label="Date"><i
+                                                                    class="fas fa-calendar me-2"></i>08-10-2022
+                                                                / 08:59 AM
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td data-label="Trx ID">GTSFG33S46G6E</td>
+                                                            <td data-label="Details">Bank Wire</td>
+                                                            <td data-label="Amount">$120</td>
+                                                            <td data-label="Status"><span
+                                                                    class="status--btn">Pending</span>
+                                                            </td>
+                                                            <td data-label="Date"><i
+                                                                    class="fas fa-calendar me-2"></i>08-10-2022
+                                                                / 08:59 AM
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td data-label="Trx ID">GTSFG33S46G6E</td>
+                                                            <td data-label="Details">Bank Wire</td>
+                                                            <td data-label="Amount">$120</td>
+                                                            <td data-label="Status"><span
+                                                                    class="status--btn status--btn-2">Completed</span>
+                                                            </td>
+                                                            <td data-label="Date"><i
+                                                                    class="fas fa-calendar me-2"></i>08-10-2022
+                                                                / 08:59 AM
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td data-label="Trx ID">GTSFG33S46G6E</td>
+                                                            <td data-label="Details">Bank Wire</td>
+                                                            <td data-label="Amount">$120</td>
+                                                            <td data-label="Status"><span
+                                                                    class="status--btn">Pending</span>
+                                                            </td>
+                                                            <td data-label="Date"><i
+                                                                    class="fas fa-calendar me-2"></i>08-10-2022
+                                                                / 08:59 AM
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td data-label="Trx ID">GTSFG33S46G6E</td>
+                                                            <td data-label="Details">Bank Wire</td>
+                                                            <td data-label="Amount">$120</td>
+                                                            <td data-label="Status"><span
+                                                                    class="status--btn status--btn-2">Completed</span>
+                                                            </td>
+                                                            <td data-label="Date"><i
+                                                                    class="fas fa-calendar me-2"></i>08-10-2022
+                                                                / 08:59 AM
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td data-label="Trx ID">GTSFG33S46G6E</td>
+                                                            <td data-label="Details">Bank Wire</td>
+                                                            <td data-label="Amount">$120</td>
+                                                            <td data-label="Status"><span
+                                                                    class="status--btn">Pending</span>
+                                                            </td>
+                                                            <td data-label="Date"><i
+                                                                    class="fas fa-calendar me-2"></i>08-10-2022
+                                                                / 08:59 AM
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td data-label="Trx ID">GTSFG33S46G6E</td>
+                                                            <td data-label="Details">Bank Wire</td>
+                                                            <td data-label="Amount">$120</td>
+                                                            <td data-label="Status"><span
+                                                                    class="status--btn status--btn-2">Completed</span>
+                                                            </td>
+                                                            <td data-label="Date"><i
+                                                                    class="fas fa-calendar me-2"></i>08-10-2022
+                                                                / 08:59 AM
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td data-label="Trx ID">GTSFG33S46G6E</td>
+                                                            <td data-label="Details">Bank Wire</td>
+                                                            <td data-label="Amount">$120</td>
+                                                            <td data-label="Status"><span
+                                                                    class="status--btn">Pending</span>
+                                                            </td>
+                                                            <td data-label="Date"><i
+                                                                    class="fas fa-calendar me-2"></i>08-10-2022
+                                                                / 08:59 AM
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td data-label="Trx ID">GTSFG33S46G6E</td>
+                                                            <td data-label="Details">Bank Wire</td>
+                                                            <td data-label="Amount">$120</td>
+                                                            <td data-label="Status"><span
+                                                                    class="status--btn status--btn-2">Completed</span>
+                                                            </td>
+                                                            <td data-label="Date"><i
+                                                                    class="fas fa-calendar me-2"></i>08-10-2022
+                                                                / 08:59 AM
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                            <div class="pagination">
+                                                <button class="btn">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" class="btn--icon"
+                                                        fill="none" viewBox="0 0 24 24" stroke="currentColor"
+                                                        stroke-width="2">
+                                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                                            d="M15 19l-7-7 7-7" />
+                                                    </svg>
+                                                </button>
+                                                <div class="pages">
+                                                    <a class="page active">1</a>
+                                                    <a class="page">2</a>
+                                                    <a class="page">3</a>
+                                                    <a class="page">4</a>
+                                                    <a class="page">5</a>
+                                                </div>
+                                                <button class="btn">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" class="btn--icon"
+                                                        fill="none" viewBox="0 0 24 24" stroke="currentColor"
+                                                        stroke-width="2">
+                                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                                            d="M9 5l7 7-7 7" />
+                                                    </svg>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        End Page-wrapper
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+
+
+    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        Start Bottom-nav
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+    <div class="bottom-nav">
+        <a href="dashboard-transaction.html">
+            <i class="las la-recycle"></i>
+            <p>Transactions</p>
+        </a>
+        <a href="dashboard-escroc-list.html">
+            <i class="las la-handshake"></i>
+            <p>My EscroW</p>
+        </a>
+        <a href="dashboard.html" class="mid">
+            <i class="las la-home"></i>
+            <p>Dashboard</p>
+        </a>
+        <a href="dashboard-support.html">
+            <i class="las llas la-question-circle"></i>
+            <p>Support</p>
+        </a>
+        <a href="user-profile.html">
+            <i class="las la-user"></i>
+            <p>Account</p>
+        </a>
+    </div>
+    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        End Bottom-nav
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+
+
+
+    <!-- jquery -->
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <!-- bootstrap js -->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <!-- swipper js -->
+    <script src="assets/js/swiper.min.js"></script>
+    <!-- lightcase js-->
+    <script src="assets/js/lightcase.js"></script>
+    <!-- pace js-->
+    <script src="assets/js/pace.js"></script>
+    <!-- smooth scroll js -->
+    <script src="assets/js/smoothscroll.min.js"></script>
+    <!-- main -->
+    <script src="assets/js/main.js"></script>
+    <!-- asos -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <!-- chosen js -->
+    <script src="assets/js/chosen.jquery.js"></script>
+    <script src="assets/js/apexcharts.min.js"></script>
+    <script>
+        AOS.init({ duration: 1200, });
+    </script>
+    <script src="assets/js/jquery.nice-select.js"></script>
+    <script>
+        $("select").niceSelect()
+    </script>
+
+</body>
+
+</html>
