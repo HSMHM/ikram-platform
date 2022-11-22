@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&display=swap');
-
 h1,
 h2,
 h3,
@@ -16,18 +15,27 @@ fs-6,
 a,
 button,
 label,
-.btn {
+.btn,
+.sidebar__menu-wrapper .menu-title {
     font-family: Almarai !important;
-}
-.footer-section .footer-social-icon span {
-    font-family: Almarai !important;
+    letter-spacing: 0em !important;
 }
 
-.header-bottom-area .navbar-collapse .main-menu li a{
+.sidebar__menu-wrapper .sidebar__menu .sidebar-menu-item a .menu-title {
+    font-family: Almarai !important;
+    letter-spacing: 0em !important;
+}
+
+.footer-section .footer-social-icon span {
+    font-family: Almarai !important;
+    letter-spacing: 0em;
+}
+
+.header-bottom-area .navbar-collapse .main-menu li a {
     font-size: 18px;
 }
 
-.features .content span{
+.features .content span {
     color: #17a2b8;
 }
 
@@ -38,10 +46,12 @@ label,
     text-transform: capitalize;
     text-align: center;
 }
+
 .blog {
     overflow: hidden;
     background-color: #f7f7f7;
 }
+
 .blog .text-content h1 {
     font-size: 50px !important;
     padding-bottom: 15px;
@@ -52,7 +62,7 @@ label,
     color: #17a2b8;
 }
 
-.blog-slider .card-text{
+.blog-slider .card-text {
     display: -webkit-box;
     overflow: hidden;
     -webkit-line-clamp: 3;
@@ -60,8 +70,7 @@ label,
     line-height: 2;
 }
 
-
-.services .text-content h1{
+.services .text-content h1 {
     font-size: 50px !important;
     padding-bottom: 15px;
     letter-spacing: 0px;
@@ -70,25 +79,24 @@ label,
     color: #17a2b8;
 }
 
-.services .card, .services .card h5 {
-    background-color:#2f556a ;
-color: #fff
-
+.services .card,
+.services .card h5 {
+    background-color: #2f556a;
+    color: #fff
 }
 
 .services .card h5 {
     margin-top: 20px;
     line-height: 1.9;
 }
+
 .services .card {
-padding: 15px 10px;
-height: 100%;
-
-
+    padding: 15px 10px;
+    height: 100%;
 }
-.services .card i{
+
+.services .card i {
     font-size: 30px;
-    
 }
 
 .courses-details .right-content img {
@@ -155,12 +163,11 @@ height: 100%;
 }
 
 
-
 /*--------------------------------------------------------------
       [ ## Courses ]
   --------------------------------------------------------------*/
 
-  .courses {
+.courses {
     overflow: hidden;
 }
 
@@ -259,13 +266,14 @@ height: 100%;
     color: #17a2b8;
 }
 
-.courses-slider .card-text{
+.courses-slider .card-text {
     display: -webkit-box;
     overflow: hidden;
     -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
     line-height: 2;
 }
+
 .courses .card .author-content img {
     width: 58px;
     object-fit: contain;
@@ -334,7 +342,7 @@ height: 100%;
     font-size: 18px;
 }
 
-.projects .text-content h1{
+.projects .text-content h1 {
     font-size: 50px !important;
     padding-bottom: 15px;
     letter-spacing: 0px;
@@ -360,21 +368,22 @@ height: 100%;
     line-height: 2;
 }
 
-  /*card Button CSS*/
 
-  .card-radio-btn .content_head {
+/*card Button CSS*/
+
+.card-radio-btn .content_head {
     color: #333;
     font-size: 1.2rem;
     line-height: 30px;
     font-weight: 500;
-  }
+}
 
-  .card-radio-btn .content_sub {
+.card-radio-btn .content_sub {
     color: #2e556a;
     font-size: 12px;
-  }
+}
 
-  .card-input-element+.card {
+.card-input-element+.card {
     width: 70px;
     height: 49px;
     margin: 10px;
@@ -387,26 +396,26 @@ height: 100%;
     text-align: center;
     -webkit-box-shadow: 0 4px 25px 0 rgb(0 0 0 / 10%);
     box-shadow: 0 4px 25px 0 rgb(0 0 0 / 10%);
-  }
+}
 
-  .card-input-element+.card:hover {
+.card-input-element+.card:hover {
     cursor: pointer;
-  }
+}
 
-  .card-input-element:checked+.card {
+.card-input-element:checked+.card {
     border: 2px solid #2e556a;
     background-color: #17a2b8;
     -webkit-transition: border 0.3s;
     -o-transition: border 0.3s;
     transition: border 0.3s;
-  }
-  .card-input-element:checked+.card .content_sub {
+}
+
+.card-input-element:checked+.card .content_sub {
     color: #ffffff;
     font-size: 12px;
-  }
+}
 
-
-  .card-input-element:checked+.card::after {
+.card-input-element:checked+.card::after {
     content: "\f058";
     display: none;
     color: rgba(113, 158, 201, 0.6);
@@ -426,33 +435,30 @@ height: 100%;
     animation-duration: 0.3s;
     -webkit-animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  }
+}
 
-  @-webkit-keyframes fadeInCheckbox {
+@-webkit-keyframes fadeInCheckbox {
     from {
-      opacity: 0;
-      -webkit-transform: rotateZ(-20deg);
+        opacity: 0;
+        -webkit-transform: rotateZ(-20deg);
     }
-
     to {
-      opacity: 1;
-      -webkit-transform: rotateZ(0deg);
+        opacity: 1;
+        -webkit-transform: rotateZ(0deg);
     }
-  }
+}
 
-  @keyframes fadeInCheckbox {
+@keyframes fadeInCheckbox {
     from {
-      opacity: 0;
-      transform: rotateZ(-20deg);
+        opacity: 0;
+        transform: rotateZ(-20deg);
     }
-
     to {
-      opacity: 1;
-      transform: rotateZ(0deg);
+        opacity: 1;
+        transform: rotateZ(0deg);
     }
-  }
+}
 
-  
 .ikram-request {
     height: auto;
     padding: 100px 0px;
@@ -557,21 +563,22 @@ height: 100%;
 .ikram-request .form .top .social .linkedin-bg {
     background: #0077b5;
 }
+
 #checkout-progress {
     width: 90%;
     margin: 0px auto;
     font-size: 1.5em;
     font-weight: 900;
     position: relative;
-  }
+}
 
-  @media (max-width: 767px) {
+@media (max-width: 767px) {
     #checkout-progress {
-      font-size: 1.5em;
+        font-size: 1.5em;
     }
-  }
+}
 
-  #checkout-progress:before {
+#checkout-progress:before {
     content: "";
     position: absolute;
     right: 0;
@@ -581,16 +588,16 @@ height: 100%;
     background-color: #ccc;
     -webkit-transform: translateY(-50%) perspective(1000px);
     transform: translateY(-50%) perspective(1000px);
-  }
+}
 
-  #checkout-progress:after {
+#checkout-progress:after {
     content: "";
     position: absolute;
     right: 0;
     top: 50%;
     height: 6px;
     width: 100%;
-    background-color: #17a2b8 ;
+    background-color: #17a2b8;
     -webkit-transform: scaleX(0) translateY(-50%) perspective(1000px);
     transform: scaleX(0) translateY(-50%) perspective(1000px);
     -webkit-transform-origin: right center;
@@ -598,47 +605,47 @@ height: 100%;
     transition: -webkit-transform 0.5s ease;
     transition: transform 0.5s ease;
     transition: transform 0.5s ease, -webkit-transform 0.5s ease;
-  }
+}
 
-  #checkout-progress.step-2:after {
+#checkout-progress.step-2:after {
     -webkit-transform: scaleX(0.25) translateY(-50%) perspective(1000px);
     transform: scaleX(0.25) translateY(-50%) perspective(1000px);
-  }
+}
 
-  #checkout-progress.step-3:after {
+#checkout-progress.step-3:after {
     -webkit-transform: scaleX(0.50) translateY(-50%) perspective(1000px);
     transform: scaleX(0.50) translateY(-50%) perspective(1000px);
-  }
+}
 
-  #checkout-progress.step-4:after {
+#checkout-progress.step-4:after {
     -webkit-transform: scaleX(0.75) translateY(-50%) perspective(1000px);
     transform: scaleX(0.75) translateY(-50%) perspective(1000px);
-  }
+}
 
-  #checkout-progress.step-5:after {
+#checkout-progress.step-5:after {
     -webkit-transform: scaleX(1) translateY(-50%) perspective(1000px);
     transform: scaleX(1) translateY(-50%) perspective(1000px);
-  }
+}
 
-  #checkout-progress.step-6:after {
+#checkout-progress.step-6:after {
     -webkit-transform: scaleX(1) translateY(-50%) perspective(1000px);
     transform: scaleX(1) translateY(-50%) perspective(1000px);
-  }
+}
 
-  #checkout-progress .progress-bar-steps {
+#checkout-progress .progress-bar-steps {
     width: 100%;
     display: flex;
     height: 100px;
     justify-content: space-between;
     align-items: center;
-  }
+}
 
-  #checkout-progress .progress-bar-steps .step {
+#checkout-progress .progress-bar-steps .step {
     z-index: 2;
     position: relative;
-  }
+}
 
-  #checkout-progress .progress-bar-steps .step .step-label {
+#checkout-progress .progress-bar-steps .step .step-label {
     position: absolute;
     top: calc(100% + 25px);
     right: 50%;
@@ -650,24 +657,24 @@ height: 100%;
     color: #ccc;
     transition: 0.3s ease;
     font-family: Almarai;
-  }
+}
 
-  @media (max-width: 767px) {
+@media (max-width: 767px) {
     #checkout-progress .progress-bar-steps .step .step-label {
-      top: calc(100% + 15px);
-      font-size: 0.5em;
+        top: calc(100% + 15px);
+        font-size: 0.5em;
     }
-  }
+}
 
-  #checkout-progress .progress-bar-steps .step span {
+#checkout-progress .progress-bar-steps .step span {
     color: #ccc;
     transition: 0.3s ease;
     display: block;
     -webkit-transform: translate3d(0, 0, 0) scale(1) perspective(1000px);
     transform: translate3d(0, 0, 0) scale(1) perspective(1000px);
-  }
+}
 
-  #checkout-progress .progress-bar-steps .step .fa-check {
+#checkout-progress .progress-bar-steps .step .fa-check {
     color: #fff;
     position: absolute;
     right: 50%;
@@ -677,29 +684,29 @@ height: 100%;
     transition: transform 0.3s ease, -webkit-transform 0.3s ease;
     -webkit-transform: translate3d(50%, -50%, 0) scale(0) perspective(1000px);
     transform: translate3d(50%, -50%, 0) scale(0) perspective(1000px);
-  }
+}
 
-  #checkout-progress .progress-bar-steps .step.active span,
-  #checkout-progress .progress-bar-steps .step.active .step-label {
-    color: #17a2b8 ;
-  }
+#checkout-progress .progress-bar-steps .step.active span,
+#checkout-progress .progress-bar-steps .step.active .step-label {
+    color: #17a2b8;
+}
 
-  #checkout-progress .progress-bar-steps .step.valid .fa-check {
+#checkout-progress .progress-bar-steps .step.valid .fa-check {
     -webkit-transform: translate3d(50%, -50%, 0) scale(1) perspective(1000px);
     transform: translate3d(50%, -50%, 0) scale(1) perspective(1000px);
-  }
+}
 
-  #checkout-progress .progress-bar-steps .step.valid span {
-    color: #17a2b8 ;
+#checkout-progress .progress-bar-steps .step.valid span {
+    color: #17a2b8;
     -webkit-transform: translate3d(0, 0, 0) scale(2) perspective(1000px);
     transform: translate3d(0, 0, 0) scale(2) perspective(1000px);
-  }
+}
 
-  #checkout-progress .progress-bar-steps .step.valid .step-label {
-    color: #17a2b8  !important;
-  }
+#checkout-progress .progress-bar-steps .step.valid .step-label {
+    color: #17a2b8 !important;
+}
 
-  #checkout-progress .progress-bar-steps .step:after {
+#checkout-progress .progress-bar-steps .step:after {
     content: "";
     position: absolute;
     z-index: -1;
@@ -713,56 +720,56 @@ height: 100%;
     border-radius: 50%;
     border: 5px solid #ccc;
     transition: 0.3s ease;
-  }
+}
 
-  @media (max-width: 767px) {
+@media (max-width: 767px) {
     #checkout-progress .progress-bar-steps .step:after {
-      width: 40px;
-      height: 40px;
+        width: 40px;
+        height: 40px;
     }
-  }
+}
 
-  #checkout-progress .progress-bar-steps .step.active:after {
-    border: 5px solid #17a2b8 ;
-  }
+#checkout-progress .progress-bar-steps .step.active:after {
+    border: 5px solid #17a2b8;
+}
 
-  #checkout-progress .progress-bar-steps .step.valid:after {
-    background-color: #17a2b8 ;
-    border: 5px solid #17a2b8 ;
-  }
+#checkout-progress .progress-bar-steps .step.valid:after {
+    background-color: #17a2b8;
+    border: 5px solid #17a2b8;
+}
 
-  .button-container {
+.button-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     width: 100%;
     margin: 30px auto 0px;
-  }
+}
 
-  .button-container .btn {
+.button-container .btn {
     display: inline-block;
-    background-color: #17a2b8 ;
+    background-color: #17a2b8;
     color: #fff;
     padding: 10px 15px;
     border-radius: 10px;
     text-transform: uppercase;
     font-weight: 900;
-    border: 3px solid #17a2b8 ;
+    border: 3px solid #17a2b8;
     transition: 0.3s ease;
     cursor: pointer;
     text-align: center;
-  }
+}
 
-  @media (max-width: 767px) {
+@media (max-width: 767px) {
     .button-container .btn {
-      width: 100%;
-      margin-bottom: 15px;
+        width: 100%;
+        margin-bottom: 15px;
     }
-  }
+}
 
-  .button-container .btn:hover {
+.button-container .btn:hover {
     background-color: transparent;
-    color: #17a2b8 ;
+    color: #17a2b8;
     -webkit-transform: scale(1.02) perspective(1000px);
     transform: scale(1.02) perspective(1000px);
-  }
+}

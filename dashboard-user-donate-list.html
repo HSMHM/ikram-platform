@@ -59,28 +59,28 @@
                     </div>
                     <div class="sidebar__menu-wrapper">
                         <ul class="sidebar__menu p-0">
-                            <li class="sidebar-menu-item ">
-                                <a href="dashboard.html">
+                            <li class="sidebar-menu-item">
+                                <a href="dashboard-user.html">
                                     <i class="menu-icon las la-home"></i>
-                                    <span class="menu-title">Dashboard</span>
+                                    <span class="menu-title">لوحة المعلومات</span>
                                 </a>
                             </li>
                             <li class="sidebar-menu-item ">
-                                <a href="dashboard-escroc-list.html">
+                                <a href="dashboard-user-ikram-request-list.html">
                                     <i class="menu-icon las la-handshake"></i>
-                                    <span class="menu-title">My Escrow</span>
+                                    <span class="menu-title">طلباتي</span>
                                 </a>
                             </li>
                             <li class="sidebar-menu-item ">
-                                <a href="dashboard-add-balance.html">
+                                <a href="dashboard-user-courses-list.html">
                                     <i class="menu-icon las las la-coins"></i>
-                                    <span class="menu-title">Add Balance</span>
+                                    <span class="menu-title">دوراتي</span>
                                 </a>
                             </li>
                             <li class="sidebar-menu-item active">
-                                <a href="dashboard-money-out.html">
+                                <a href="dashboard-user-donate-list.html">
                                     <i class="menu-icon las la-hand-holding-usd"></i>
-                                    <span class="menu-title">Money Out</span>
+                                    <span class="menu-title">تبرعاتي</span>
                                 </a>
                             </li>
                             <li class="sidebar-menu-item ">
@@ -194,8 +194,13 @@
                                 </div>
                                 <!-- table -->
                                 <div class="table-area pt-20 pb-30">
-                                    <div class="dash-section-title">
-                                        <h4>Money Out Transactions</h4>
+                                    <div class="dash-section-title my-escrow d-flex justify-content-between">
+                                        <div>
+                                            <h4>My Escrow</h4>
+                                        </div>
+                                        <div>
+                                            <a href="dashboard-escroc.html" class="btn--base">Start Transaction</a>
+                                        </div>
                                     </div>
                                     <div class="row justify-content-center">
                                         <div class="col-xl-12">
@@ -204,17 +209,20 @@
                                                     <thead>
                                                         <tr>
                                                             <th>Trx</th>
-                                                            <th>Gateway</th>
+                                                            <th>Buyer - Seller</th>
                                                             <th>Amount</th>
+                                                            <th>Category</th>
                                                             <th>Status</th>
                                                             <th>Date</th>
+
                                                         </tr>
                                                     </thead>
                                                     <tbody>
                                                         <tr>
                                                             <td data-label="Trx ID">GTSFG33S46G6E</td>
-                                                            <td data-label="Details">Paypal</td>
+                                                            <td data-label="Details">I'm buying</td>
                                                             <td data-label="Amount">$120</td>
+                                                            <td data-label="Category">Domain & Website</td>
                                                             <td data-label="Status"><span class="status--btn">Pending</span>
                                                             </td>
                                                             <td data-label="Date"><i class="fas fa-calendar me-2"></i>08-10-2022 / 08:59 AM
@@ -222,8 +230,9 @@
                                                         </tr>
                                                         <tr>
                                                             <td data-label="Trx ID">GTSFG33S46G6E</td>
-                                                            <td data-label="Details">Paypal</td>
+                                                            <td data-label="Details">I'm buying</td>
                                                             <td data-label="Amount">$120</td>
+                                                            <td data-label="Category">Domain & Website</td>
                                                             <td data-label="Status"><span class="status--btn status--btn-2">Completed</span>
                                                             </td>
                                                             <td data-label="Date"><i class="fas fa-calendar me-2"></i>08-10-2022 / 08:59 AM
@@ -231,8 +240,9 @@
                                                         </tr>
                                                         <tr>
                                                             <td data-label="Trx ID">GTSFG33S46G6E</td>
-                                                            <td data-label="Details">Paypal</td>
+                                                            <td data-label="Details">I'm buying</td>
                                                             <td data-label="Amount">$120</td>
+                                                            <td data-label="Category">Domain & Website</td>
                                                             <td data-label="Status"><span class="status--btn">Pending</span>
                                                             </td>
                                                             <td data-label="Date"><i class="fas fa-calendar me-2"></i>08-10-2022 / 08:59 AM
@@ -240,8 +250,9 @@
                                                         </tr>
                                                         <tr>
                                                             <td data-label="Trx ID">GTSFG33S46G6E</td>
-                                                            <td data-label="Details">Paypal</td>
+                                                            <td data-label="Details">I'm buying</td>
                                                             <td data-label="Amount">$120</td>
+                                                            <td data-label="Category">Domain & Website</td>
                                                             <td data-label="Status"><span class="status--btn status--btn-2">Completed</span>
                                                             </td>
                                                             <td data-label="Date"><i class="fas fa-calendar me-2"></i>08-10-2022 / 08:59 AM
@@ -249,8 +260,9 @@
                                                         </tr>
                                                         <tr>
                                                             <td data-label="Trx ID">GTSFG33S46G6E</td>
-                                                            <td data-label="Details">Paypal</td>
+                                                            <td data-label="Details">I'm buying</td>
                                                             <td data-label="Amount">$120</td>
+                                                            <td data-label="Category">Domain & Website</td>
                                                             <td data-label="Status"><span class="status--btn">Pending</span>
                                                             </td>
                                                             <td data-label="Date"><i class="fas fa-calendar me-2"></i>08-10-2022 / 08:59 AM
@@ -258,8 +270,9 @@
                                                         </tr>
                                                         <tr>
                                                             <td data-label="Trx ID">GTSFG33S46G6E</td>
-                                                            <td data-label="Details">Paypal</td>
+                                                            <td data-label="Details">I'm buying</td>
                                                             <td data-label="Amount">$120</td>
+                                                            <td data-label="Category">Domain & Website</td>
                                                             <td data-label="Status"><span class="status--btn status--btn-2">Completed</span>
                                                             </td>
                                                             <td data-label="Date"><i class="fas fa-calendar me-2"></i>08-10-2022 / 08:59 AM
@@ -267,8 +280,9 @@
                                                         </tr>
                                                         <tr>
                                                             <td data-label="Trx ID">GTSFG33S46G6E</td>
-                                                            <td data-label="Details">Paypal</td>
+                                                            <td data-label="Details">I'm buying</td>
                                                             <td data-label="Amount">$120</td>
+                                                            <td data-label="Category">Domain & Website</td>
                                                             <td data-label="Status"><span class="status--btn">Pending</span>
                                                             </td>
                                                             <td data-label="Date"><i class="fas fa-calendar me-2"></i>08-10-2022 / 08:59 AM
@@ -276,8 +290,9 @@
                                                         </tr>
                                                         <tr>
                                                             <td data-label="Trx ID">GTSFG33S46G6E</td>
-                                                            <td data-label="Details">Paypal</td>
+                                                            <td data-label="Details">I'm buying</td>
                                                             <td data-label="Amount">$120</td>
+                                                            <td data-label="Category">Domain & Website</td>
                                                             <td data-label="Status"><span class="status--btn status--btn-2">Completed</span>
                                                             </td>
                                                             <td data-label="Date"><i class="fas fa-calendar me-2"></i>08-10-2022 / 08:59 AM
@@ -285,8 +300,9 @@
                                                         </tr>
                                                         <tr>
                                                             <td data-label="Trx ID">GTSFG33S46G6E</td>
-                                                            <td data-label="Details">Paypal</td>
+                                                            <td data-label="Details">I'm buying</td>
                                                             <td data-label="Amount">$120</td>
+                                                            <td data-label="Category">Domain & Website</td>
                                                             <td data-label="Status"><span class="status--btn">Pending</span>
                                                             </td>
                                                             <td data-label="Date"><i class="fas fa-calendar me-2"></i>08-10-2022 / 08:59 AM
@@ -294,8 +310,9 @@
                                                         </tr>
                                                         <tr>
                                                             <td data-label="Trx ID">GTSFG33S46G6E</td>
-                                                            <td data-label="Details">Paypal</td>
+                                                            <td data-label="Details">I'm buying</td>
                                                             <td data-label="Amount">$120</td>
+                                                            <td data-label="Category">Domain & Website</td>
                                                             <td data-label="Status"><span class="status--btn status--btn-2">Completed</span>
                                                             </td>
                                                             <td data-label="Date"><i class="fas fa-calendar me-2"></i>08-10-2022 / 08:59 AM
@@ -303,8 +320,9 @@
                                                         </tr>
                                                         <tr>
                                                             <td data-label="Trx ID">GTSFG33S46G6E</td>
-                                                            <td data-label="Details">Paypal</td>
+                                                            <td data-label="Details">I'm buying</td>
                                                             <td data-label="Amount">$120</td>
+                                                            <td data-label="Category">Domain & Website</td>
                                                             <td data-label="Status"><span class="status--btn">Pending</span>
                                                             </td>
                                                             <td data-label="Date"><i class="fas fa-calendar me-2"></i>08-10-2022 / 08:59 AM
@@ -312,8 +330,9 @@
                                                         </tr>
                                                         <tr>
                                                             <td data-label="Trx ID">GTSFG33S46G6E</td>
-                                                            <td data-label="Details">Paypal</td>
+                                                            <td data-label="Details">I'm buying</td>
                                                             <td data-label="Amount">$120</td>
+                                                            <td data-label="Category">Domain & Website</td>
                                                             <td data-label="Status"><span class="status--btn status--btn-2">Completed</span>
                                                             </td>
                                                             <td data-label="Date"><i class="fas fa-calendar me-2"></i>08-10-2022 / 08:59 AM

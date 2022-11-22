@@ -89,6 +89,7 @@
                                     <span class="menu-title">Transaction</span>
                                 </a>
                             </li>
+
                             <li class="sidebar-menu-item">
                                 <a href="dashboard-support.html">
                                     <i class="menu-icon las la-question-circle"></i>
@@ -107,7 +108,7 @@
                                     <span class="menu-title">2FA Security</span>
                                 </a>
                             </li>
-                            <li class="sidebar-menu-item active">
+                            <li class="sidebar-menu-item">
                                 <a href="dashboard-password-change.html">
                                     <i class="menu-icon las la-key"></i>
                                     <span class="menu-title">Change Password</span>
@@ -192,41 +193,110 @@
                                     <h3> <span> صباح الخير،  </span> طلال </h3>
                                 </div>
                             </div>
-
-                            <div class="card-1">
-                                <div class="row form-area">
-                                    <div class="col-lg-9 col-md-10 col-12">
-                                        <div class="form-area-tab">
-                                            <div class="user-text pb-4">
-                                                <h4>Change Password</h4>
+                            <div>
+                                <div class="p-4 card-user mt-30 mb-40">
+                                    <div class="row g-5 d-flex justify-content-center">
+                                        <div class="col-lg-4 col-md-12 col-12">
+                                            <img class=" d-block mx-auto avater" src="assets/images/client/user.jpg" alt="" height="200" width="200">
+                                            <div>
+                                                <div class="d-flex justify-content-between mt-4 rounded-2 p-2 user-card">
+                                                    <p class=" m-0 fw-bold">Name:</p>
+                                                    <p class=" m-0 ">Jhon Danals</p>
+                                                </div>
+                                                <div class="d-flex justify-content-between mt-4 rounded-2 p-2 user-card">
+                                                    <p class=" m-0 fw-bold">Username:</p>
+                                                    <p class=" m-0 ">CarlaPascle999</p>
+                                                </div>
+                                                <div class="d-flex justify-content-between mt-4 rounded-2 p-2 user-card">
+                                                    <p class=" m-0 fw-bold">Email:</p>
+                                                    <p class=" m-0 ">JhonDanals@gmail.com</p>
+                                                </div>
+                                                <div class="d-flex justify-content-between mt-4 rounded-2 p-2 user-card">
+                                                    <p class=" m-0 fw-bold">Phone:</p>
+                                                    <p class=" m-0 ">123 121 1212</p>
+                                                </div>
                                             </div>
-                                            <form action="" method="post" role="form">
-                                                <div class="row justify-content-center mb-20-none">
-                                                    <div class="col-xl-12 form-group mb-20">
-                                                        <label class="mb-3">Current Password*</label>
-                                                        <input type="password" name="username" class="form-control">
+                                        </div>
+                                        <div class="col-lg-8 col-md-12 col-12 pt-4">
+                                            <form action="" class="form-dashboard user-form">
+                                                <div class="row g-4k">
+                                                    <div class="mb-4 col-lg-6 col-md-6 col-12 pe-4">
+                                                        <label for="text1" class="form-label ">Name<span
+                                                                class="text-danger">*</span></label>
+                                                        <input type="text" class="form-control" id="text1" value="John Sullivan">
                                                     </div>
-                                                    <div class="col-xl-12 form-group mb-20">
-                                                        <label class="mb-3">New Password*</label>
-                                                        <input type="password" name="username" class="form-control">
+                                                    <div class="mb-4 col-lg-6 col-md-6 col-12 pe-4">
+                                                        <label for="text2" class="form-label ">Email<span
+                                                                class="text-danger">*</span></label>
+                                                        <input type="text" class="form-control" id="text2" value="carlapascle@gmail.com">
                                                     </div>
-                                                    <div class="col-xl-12 form-group mb-20">
-                                                        <label class="mb-3">Confirm Password*</label>
-                                                        <input type="password" name="username" class="form-control">
+                                                    <div class="mb-4 col-lg-6 col-md-6 col-12 pe-4">
+                                                        <label for="username" class="form-label ">Username<span
+                                                                class="text-danger">*</span></label>
+                                                        <input type="text" class="form-control" id="username" value="CarlaPascle999">
                                                     </div>
-                                                    <div class="col-xl-12 form-group mb-20">
-                                                        <button type="submit" class="btn--base mt-4 w-100">change</button>
+                                                    <div class="mb-4 col-lg-6 col-md-6 col-12 pe-4">
+                                                        <label for="phone" class="form-label ">Phone<span
+                                                                class="text-danger">*</span></label>
+                                                        <input type="text" class="form-control" id="phone" value="123 121 1212">
+                                                    </div>
+                                                    <div class="mb-4 col-lg-6 col-md-6 col-12 pe-4">
+                                                        <label class="">Country<span
+                                                                class="text-danger">*</span></label>
+                                                        <div>
+                                                            <div class="form-item">
+                                                                <input id="country_selector" type="text" class="form-control w-100">
+                                                                <label for="country_selector" style="display:none;">Select a
+                                                                    country here...</label>
+                                                            </div>
+                                                            <div class="form-item" style="display:none;">
+                                                                <input type="text" id="country_selector_code" name="country_selector_code" data-countrycodeinput="1" readonly="readonly" placeholder="Selected country code will appear here" />
+                                                                <label for="country_selector_code">...and the selected
+                                                                    country
+                                                                    code will be updated here</label>
+                                                            </div>
+                                                            <button type="submit" style="display:none;">Submit</button>
+                                                        </div>
+                                                    </div>
+                                                    <div class="mb-4 col-lg-6 col-md-6 col-12 pe-4">
+                                                        <label for="city" class="form-label ">City<span
+                                                                class="text-danger">*</span></label>
+                                                        <input type="text" class="form-control" id="city" value="New York">
+                                                    </div>
+                                                    <div class="mb-4 col-lg-6 col-md-6 col-12 pe-4">
+                                                        <label for="State" class="form-label ">State<span
+                                                                class="text-danger">*</span></label>
+                                                        <input type="text" class="form-control" id="State" value="Albany">
+                                                    </div>
+                                                    <div class="mb-4 col-lg-6 col-md-6 col-12 pe-4">
+                                                        <label for="Address" class="form-label ">Address<span
+                                                                class="text-danger">*</span></label>
+                                                        <input type="text" class="form-control" id="Address" value="USA, New York">
+                                                    </div>
+                                                    <div class="mb-4 col-lg-6 col-md-6 col-12 pe-4">
+                                                        <label for="Zip Code" class="form-label ">Zip Code<span
+                                                                class="text-danger">*</span></label>
+                                                        <input type="text" class="form-control" id="Zip Code" value="12231">
+                                                    </div>
+                                                    <div class="mb-4 col-lg-6 col-md-6 col-12 pe-4">
+                                                        <label for="date1" class="form-label ">Image<span
+                                                                class="text-danger">*</span></label>
+                                                        <input type="file" class="filepond " name="site_logo" accept="image/png, image/jpeg, image/gif">
+                                                    </div>
+                                                    <div class="my-3 col-12">
+                                                        <button class="btn--base w-100">Save</button>
                                                     </div>
                                                 </div>
                                             </form>
                                         </div>
                                     </div>
+
                                 </div>
                             </div>
-
                         </div>
                     </div>
                 </div>
+
             </div>
         </div>
     </div>
@@ -285,6 +355,7 @@
     <!-- chosen js -->
     <script src="assets/js/chosen.jquery.js"></script>
     <script src="assets/js/apexcharts.min.js"></script>
+    <script src="assets/js/countrySelect.js"></script>
     <script>
         AOS.init({
             duration: 1200,
@@ -294,7 +365,20 @@
     <script>
         $("select").niceSelect()
     </script>
+    <script>
+        $("#country_selector").countrySelect({
+            defaultCountry: "us",
+            responsiveDropdown: true,
+        });
+    </script>
+    <script src="assets/js/filepond.min.js"></script>
+    <script src="assets/js/filepond-plugin-image-preview.min.js"></script>
 
+    <script>
+        FilePond.registerPlugin(FilePondPluginImagePreview);
+        const inputElement = document.querySelector('input[type="file"]');
+        const pond = FilePond.create(inputElement);
+    </script>
 </body>
 
 </html>
