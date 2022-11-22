@@ -1,26 +1,28 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ar" dir="rtl">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Escroc</title>
-    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;0,500;0,600;0,700;1,600&display=swap" rel="stylesheet">
-    <!-- fontawesome css link -->
-    <link rel="stylesheet" href="assets/css/fontawesome-all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;0,500;0,600;0,700;1,600&display=swap"
+        rel="stylesheet">
     <!-- bootstrap css link -->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min-rtl.css">
     <!-- favicon -->
-    <link rel="shortcut icon" href="assets/images/logo/fav.ico" type="image/x-icon">
+    <link rel="icon" href="assets/images/logo/favicon32.png" sizes="any">
+    </link>
+    <link rel="apple-touch-icon" href="assets/images/logo/favicon180.png">
+    </link>
     <!-- swipper css link -->
-    <link rel="stylesheet" href="assets/css/swiper.min.css">
+    <link rel="stylesheet" href="assets/css/swiper.min-rtl.css">
     <!-- lightcase css links -->
-    <link rel="stylesheet" href="assets/css/lightcase.css">
+    <link rel="stylesheet" href="assets/css/lightcase-rtl.css">
     <!-- line-awesome-icon css -->
     <link rel="stylesheet" href="assets/css/line-awesome.min.css">
     <!-- animate.css -->
-    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="assets/css/animate-rtl.css">
     <!-- main style css link -->
     <link rel="stylesheet" href="assets/css/style-rtl.css">
     <!-- custom style css link -->
@@ -54,20 +56,24 @@
                 <div class="container">
                     <div class="header-menu-content">
                         <nav class="navbar navbar-expand-lg p-0">
-                            <a class="site-logo site-title" href="index.html"><img src="assets/images/logo/logo.png" alt="site-logo"></a>
-                            <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <a class="site-logo site-title" href="index.html"><img
+                                    src="assets/images/logo/ikram-logo-250.png" alt="site-logo"></a>
+                            <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                aria-expanded="false" aria-label="Toggle navigation">
                                 <span class="fas fa-bars"></span>
                             </button>
                             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                                <ul class="navbar-nav main-menu ms-auto">
-                                    <li><a href="index.html">Home</a></li>
-                                    <li><a href="about.html">About</a></li>
-                                    <li><a href="services.html">Services</a></li>
-                                    <li><a href="contact.html">Contact</a></li>
-                                    <li><a href="#0">Pages <i class="fas fa-angle-down ms-1"></i></a>
+                                <ul class="navbar-nav main-menu mx-auto">
+                                    <li><a href="index.html" class="active">الرئيسية</a></li>
+                                    <li><a href="about.html">الأخبار</a></li>
+                                    <li><a href="services.html">الخدمات</a></li>
+                                    <li><a href="services.html">المشاريع</a></li>
+                                    <li><a href="contact.html">اتصل بنا</a></li>
+                                    <li><a href="#0">صفحات <i class="fas fa-angle-down ms-1"></i></a>
                                         <ul class="sub-menu">
                                             <li><a href="developer.html">Developer</a></li>
-                                            <li><a href="blog.html" class="active">Blog</a></li>
+                                            <li><a href="blog.html">Blog</a></li>
                                             <li><a href="blog-details.html">Blog Details</a></li>
                                             <li><a href="privacy.html">Privacy Policy</a></li>
                                             <li><a href="login.html">Login</a></li>
@@ -75,11 +81,24 @@
                                             <li><a href="404.html">404 Page</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="dashboard.html">Dashboard</a></li>
                                 </ul>
-                                <div class="header-action  ms-lg-3 ms-0">
-                                    <a href="login.html" class="btn--base btn--base-e">Login</a>
+                                <div class="dropdown">
+                                    <button class="btn--base btn--base-e dropdown-toggle" type="button"
+                                        id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                        حسابي
+                                    </button>
+                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                        <li><a class="dropdown-item" href="dashboard.html">حساب مغسلة</a></li>
+                                        <li><a class="dropdown-item" href="dashboard.html">حساب فرد</a></li>
+                                        <li>
+                                            <hr class="dropdown-divider">
+                                        </li>
+                                        <li><a class="dropdown-item" href="#">تغيير كلمة المرور</a></li>
+                                        <li><a class="dropdown-item text-danger" href="#">تسجيل خروج</a></li>
+                                    </ul>
                                 </div>
+                                <a href="#" class="lang-btn mx-2 my-3 my-lg-1 mx-lg-5 text-secondary fs-5 fw-bold">EN <i
+                                        class="fas fa-globe"></i></a>
                             </div>
                         </nav>
                     </div>
@@ -269,6 +288,7 @@
     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 
+
     <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
         Start Footer 
     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -278,11 +298,8 @@
                 <div class="row">
                     <div class="col-xl-4 col-lg-4 mb-50">
                         <div class="footer-widget">
-                            <div class="footer-text">
-                                <p>Lorem ipsum dolor sit amet, consec tetur adipisicing elit, sed do eiusmod tempor incididuntut consec tetur adipisicing elit,Lorem ipsum dolor sit amet.</p>
-                            </div>
                             <div class="footer-social-icon">
-                                <span>Follow us</span>
+                                <span>تواصل معنا</span>
                                 <a href="#"><i class="fab fa-facebook-f facebook-bg"></i></a>
                                 <a href="#"><i class="fab fa-twitter twitter-bg"></i></a>
                                 <a href="#"><i class="fab fa-instagram instagram-bg"></i></a>
@@ -293,29 +310,29 @@
                     <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
                         <div class="footer-widget">
                             <div class="footer-widget-heading">
-                                <h3>Useful Links</h3>
+                                <h3>الوصول السريع</h3>
                             </div>
                             <ul>
-                                <li><a href="index.html">Home</a></li>
-                                <li><a href="about.html">about</a></li>
-                                <li><a href="login.html">Login</a></li>
-                                <li><a href="blog.html">Blog</a></li>
-                                <li><a href="signup.html">Signup</a></li>
-                                <li><a href="privacy.html">Privacy</a></li>
+                                <li><a href="index.html">الرئيسية</a></li>
+                                <li><a href="about.html">عن المنصة</a></li>
+                                <li><a href="login.html">دخول</a></li>
+                                <li><a href="blog.html">الأخبار</a></li>
+                                <li><a href="signup.html">انشاء حساب</a></li>
+                                <li><a href="privacy.html">الخصوصية</a></li>
                             </ul>
                         </div>
                     </div>
                     <div class="col-xl-4 col-lg-4 col-md-6 mb-50">
                         <div class="footer-widget">
                             <div class="footer-widget-heading">
-                                <h3>Subscribe</h3>
+                                <h3>القائمة البريدية</h3>
                             </div>
                             <div class="footer-text mb-25">
-                                <p>Don’t miss to subscribe to our new feeds, kindly fill the form below.</p>
+                                <p>لمعرفة آخر أخبار المنصة</p>
                             </div>
                             <div class="subscribe-form">
                                 <form action="#">
-                                    <input type="text" placeholder="Email Address">
+                                    <input type="text" placeholder="البريد الإلكتروني">
                                     <button><i class="fab fa-telegram-plane"></i></button>
                                 </form>
                             </div>
@@ -329,7 +346,7 @@
                 <div class="row">
                     <div class="col-12 text-center text-lg-left">
                         <div class="copyright-text">
-                            <p>Copyright &copy; 2022, All Right Reserved <a href="#">Escroc</a>
+                            <p>جميع الحقوق محفوظة &copy; 2022, <a href="#">منصة إكرام</a>
                             </p>
                         </div>
                     </div>
@@ -342,10 +359,16 @@
     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 
+
+
+
+
     <!-- jquery -->
     <script src="assets/js/jquery-3.6.0.min.js"></script>
     <!-- bootstrap js -->
     <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/2197123105.js" crossorigin="anonymous"></script>
     <!-- swipper js -->
     <script src="assets/js/swiper.min.js"></script>
     <!-- lightcase js-->
@@ -365,8 +388,14 @@
         });
     </script>
     <script src="assets/js/jquery.nice-select.js"></script>
+
+    <script src="assets/js/custom.js"></script>
+
     <script>
         $("select").niceSelect()
+    </script>
+    <script>
+
     </script>
 </body>
 

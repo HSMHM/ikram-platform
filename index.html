@@ -6,13 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Escroc</title>
-    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;0,500;0,600;0,700;1,600&display=swap" rel="stylesheet">
-    <!-- fontawesome css link -->
-    <link rel="stylesheet" href="assets/css/fontawesome-all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;0,500;0,600;0,700;1,600&display=swap"
+        rel="stylesheet">
     <!-- bootstrap css link -->
     <link rel="stylesheet" href="assets/css/bootstrap.min-rtl.css">
     <!-- favicon -->
-    <link rel="shortcut icon" href="assets/images/logo/fav.ico" type="image/x-icon">
+    <link rel="icon" href="assets/images/logo/favicon32.png" sizes="any">
+    </link>
+    <link rel="apple-touch-icon" href="assets/images/logo/favicon180.png">
+    </link>
     <!-- swipper css link -->
     <link rel="stylesheet" href="assets/css/swiper.min-rtl.css">
     <!-- lightcase css links -->
@@ -54,17 +56,21 @@
                 <div class="container">
                     <div class="header-menu-content">
                         <nav class="navbar navbar-expand-lg p-0">
-                            <a class="site-logo site-title" href="index.html"><img src="assets/images/logo/logo.png" alt="site-logo"></a>
-                            <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <a class="site-logo site-title" href="index.html"><img
+                                    src="assets/images/logo/ikram-logo-250.png" alt="site-logo"></a>
+                            <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                aria-expanded="false" aria-label="Toggle navigation">
                                 <span class="fas fa-bars"></span>
                             </button>
                             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                                <ul class="navbar-nav main-menu ms-auto">
-                                    <li><a href="index.html" class="active">Home</a></li>
-                                    <li><a href="about.html">About</a></li>
-                                    <li><a href="services.html">Services</a></li>
-                                    <li><a href="contact.html">Contact</a></li>
-                                    <li><a href="#0">Pages <i class="fas fa-angle-down ms-1"></i></a>
+                                <ul class="navbar-nav main-menu mx-auto">
+                                    <li><a href="index.html" class="active">الرئيسية</a></li>
+                                    <li><a href="about.html">الأخبار</a></li>
+                                    <li><a href="services.html">الخدمات</a></li>
+                                    <li><a href="services.html">المشاريع</a></li>
+                                    <li><a href="contact.html">اتصل بنا</a></li>
+                                    <li><a href="#0">صفحات <i class="fas fa-angle-down ms-1"></i></a>
                                         <ul class="sub-menu">
                                             <li><a href="developer.html">Developer</a></li>
                                             <li><a href="blog.html">Blog</a></li>
@@ -75,11 +81,24 @@
                                             <li><a href="404.html">404 Page</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="dashboard.html">Dashboard</a></li>
                                 </ul>
-                                <div class="header-action  ms-lg-3 ms-0">
-                                    <a href="login.html" class="btn--base btn--base-e">Login</a>
+                                <div class="dropdown">
+                                    <button class="btn--base btn--base-e dropdown-toggle" type="button"
+                                        id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                        حسابي
+                                    </button>
+                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                        <li><a class="dropdown-item" href="dashboard.html">حساب مغسلة</a></li>
+                                        <li><a class="dropdown-item" href="dashboard.html">حساب فرد</a></li>
+                                        <li>
+                                            <hr class="dropdown-divider">
+                                        </li>
+                                        <li><a class="dropdown-item" href="#">تغيير كلمة المرور</a></li>
+                                        <li><a class="dropdown-item text-danger" href="#">تسجيل خروج</a></li>
+                                    </ul>
                                 </div>
+                                <a href="#" class="lang-btn mx-2 my-3 my-lg-1 mx-lg-5 text-secondary fs-5 fw-bold">EN <i
+                                        class="fas fa-globe"></i></a>
                             </div>
                         </nav>
                     </div>
@@ -95,60 +114,13 @@
     <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
         Start Banner
     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-    <section class="banner bg_img bg-overlay-base-2" data-background="assets/images/element/b1.jpg">
+    <section class="banner bg_img bg-overlay-base-2" data-background="assets/images/element/sld1.jpg">
         <div class="container mx-auto">
             <div class="row">
                 <div class="col-lg-7 col-md-6 col-12 banner-content" data-aos="fade-right">
-                    <h3 class="title">The Secure, easiest and fastest way to transfer money.</h3>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae sunt dolores voluptatum vero accusantium incidunt culpa blanditiis quod fugiat.</p>
-                    <a href="#" class="btn--base mb-4 mb-lg-0 mb-md-0">Get Started</a>
-                </div>
-                <div class="col-lg-5 col-md-6 col-12">
-                    <div class="banner-form">
-                        <form class="row g-4">
-                            <div class="col-12 mb-2">
-                                <h3 class="fs-6 p-0">Are You Buyer Or Seller</h3>
-                                <div class="">
-                                    <select class="form-control select-item-2 py-0 w-100">
-                                        <option value="1">Buyer</option>
-                                        <option value="2">Seller</option>
-                                    </select>
-                                </div>
-                            </div>
-
-                            <div class="col-12 mb-2">
-                                <h3 class="fs-6 p-0">Domain Name</h3>
-                                <div>
-                                    <select class="form-control select-item-2 py-0 w-100">
-                                        <option value="1">Domain Name</option>
-                                        <option value="2">General Merchandise</option>
-                                        <option value="3">Motor Vehicle</option>
-                                    </select>
-                                </div>
-                            </div>
-
-                            <div class="col-12 mb-2">
-                                <div class="row">
-                                    <h3 class="fs-6">Enter Amount</h3>
-                                    <div class="col-9 pe-0">
-                                        <input type="text" class="form-control select-input" id="input1" placeholder="Enter Amount" />
-                                    </div>
-                                    <div class="col-3 ps-0">
-                                        <select class="form-control select-item py-0 w-100">
-                                            <option value="1">USA</option>
-                                            <option value="2">EUR</option>
-                                            <option value="3">GBP</option>
-                                        </select>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-12">
-                                <a href="#" class="btn--base btn--base-e text-center w-100 ">Start
-                                    Transaction</a>
-                            </div>
-                        </form>
-                    </div>
+                    <h3 class="title">منصة إكرام</h3>
+                    <h3 class="text-light mt-5">رعاية شؤون الموتى، استنادًا إلى التعاليم الإسلامية</h3>
+                    <a href="#" class="btn--base my-4 mb-lg-0 mb-md-0">انشاء حساب</a>
                 </div>
             </div>
         </div>
@@ -160,39 +132,35 @@
     <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
         Start Solution 
     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-    <section class="solution">
+    <section class="solution pb-4">
         <div class="container mx-auto">
             <div class="row g-4 pb-3">
                 <div class="col-lg-3 col-md-6 col-12" data-aos="fade-zoom-in" data-aos-duration="1500">
                     <div class="card text-center">
-                        <img src="assets/images/element/icon1.png" class="img" alt="alt">
-                        <h3>Professional Services</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit, consectetur
-                        </p>
+                        <i class="fas fa-users"></i>
+                        <h2 class="text-secondary">+<span class="counter-count">20</span> ألف</h2>
+                        <h3>مستفيد</h3>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 col-12" data-aos="fade-zoom-in" data-aos-duration="1500">
                     <div class="card text-center">
-                        <img src="assets/images/element/icon2.png" class="img" alt="alt">
-                        <h3>Low costing</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit, consectetur
-                        </p>
+                        <i class="fas fa-hands-helping"></i>
+                        <h2 class="text-secondary">+<span class="counter-count">20</span> ألف</h2>
+                        <h3>متطوع</h3>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 col-12" data-aos="fade-zoom-in" data-aos-duration="1500">
                     <div class="card text-center">
-                        <img src="assets/images/element/icon3.png" class="img" alt="alt">
-                        <h3>Live Support</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit, consectetur
-                        </p>
+                        <i class="fas fa-chalkboard-teacher"></i>
+                        <h2 class="text-secondary">+<span class="counter-count">20</span> ألف</h2>
+                        <h3>متدرب</h3>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 col-12" data-aos="fade-zoom-in" data-aos-duration="1500">
                     <div class="card text-center">
-                        <img src="assets/images/element/icon4.png" class="img" alt="alt">
-                        <h3>Safe and Secure</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit, consectetur
-                        </p>
+                        <i class="fas fa-hand-holding-usd"></i>
+                        <h2 class="text-secondary">+<span class="counter-count">20</span> ألف</h2>
+                        <h3>قيمة التبرعات</h3>
                     </div>
                 </div>
             </div>
@@ -207,15 +175,17 @@
     <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
         Start Features 
     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-    <section class="features ptb-60 ">
+    <section class="features">
         <div class="container mx-auto">
             <div class="row">
                 <div class="col-lg-6 col-md-6 col-12 right-thumb" data-aos="fade-right">
-                    <img src="assets/images/element/about.png" alt="image" />
+                    <img src="assets/images/element/about-image.png" alt="image" />
                 </div>
                 <div class="col-lg-6 col-md-6 col-12 my-auto content pt-lg-0 pt-md-0 pt-3" data-aos="fade-left">
-                    <h3 class="text-bottom">Escroc. Your Safe Escrow Payment Platform.</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur.</p>
+                    <h3 class="text-bottom">عن <span>إكرام</span></h3>
+                    <p>منصة وطنية تهتم بشؤون المسلم بعد موته، وتوعية المجتمع بأحكام الجنائز، وتساهم في تطوير خدمات اكرام
+                        الموتى ورعاية شؤونهم وذويهم من خلال تدريب وتأهيل العاملين بالمجال وتطوير المغاسل والمقابر وتوعية
+                        المجتمع بحقوق الموتى وتمكين العمل التطوعي لرعاية شؤون الموتى والدعم المعنوي لذويهم.</p>
                 </div>
             </div>
         </div>
@@ -224,330 +194,65 @@
             End Features 
     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
-
     <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
         Start Services 
     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
     <section class="services ptb-60">
         <div class="container mx-auto">
             <div class="text-content">
-                <h3>Safely buy and sell products, <br> Our <span>services</span></h3>
+                <h1>الخدمات</h1>
             </div>
-            <div class="">
-                <div class="row g-4 mt-5">
-                    <div class="col-lg-4 col-md-6 col-12" data-aos="zoom-in">
-                        <div class="services-card">
-                            <div>
-                                <div class="icon bg--1">
-                                    <i class="las la-globe"></i>
-                                </div>
-                            </div>
-                            <div class="content">
-                                <h3>Domain Names</h3>
-                                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less</p>
-                                <a href="#">Read more</a>
-                            </div>
-                        </div>
+            <div class="row g-4 pb-3">
+                <div class="col-lg-4 col-md-6 col-12" data-aos="fade-zoom-in" data-aos-duration="1500">
+                    <div class="card text-center">
+                        <i class="fa-solid fa-person-digging"></i>
+                        <h5 classs="my-auto">إكرام ميت</h5>
+                        <a href="ikram-request.html" class="btn--base btn--base-e text-light mt-auto" type="button">بدء الخدمة</a>
                     </div>
-
-                    <div class="col-lg-4 col-md-6 col-12" data-aos="zoom-in">
-                        <div class="services-card">
-                            <div>
-                                <div class="icon bg--2">
-                                    <i class="las la-motorcycle"></i>
-                                </div>
-                            </div>
-                            <div class="content">
-                                <h3>Motor Vehicles</h3>
-                                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less</p>
-                                <a href="#">Read more</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 col-12" data-aos="zoom-in">
-                        <div class="services-card">
-                            <div>
-                                <div class="icon bg--3">
-                                    <i class="las la-laptop"></i>
-                                </div>
-                            </div>
-                            <div class="content">
-                                <h3>Electronics</h3>
-                                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less</p>
-                                <a href="#">Read more</a>
-                            </div>
-                        </div>
-                    </div>
-
                 </div>
+                <div class="col-lg-4 col-md-6 col-12" data-aos="fade-zoom-in" data-aos-duration="1500">
+                    <div class="card text-center">
+                        <i class="fa-solid fa-mosque"></i>
+                        <h5 classs="my-auto">الاستعلام عن مقدمي خدمات نقل وتجهيز الموتى</h5>
+                        <button class="btn--base btn--base-e text-light mt-auto" type="button">بدء الخدمة</button>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12" data-aos="fade-zoom-in" data-aos-duration="1500">
+                    <div class="card text-center">
+                        <i class="fa-solid fa-door-closed"></i>
+                        <h5 classs="my-auto">الاستعلام عن قبر متوفي</h5>
+                        <button class="btn--base btn--base-e text-light mt-auto" type="button">بدء الخدمة</button>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12" data-aos="fade-zoom-in" data-aos-duration="1500">
+                    <div class="card text-center">
+                        <i class="fa-solid fa-file-contract"></i>
+                        <h5 classs="my-auto">طباعة شهادة دفن</h5>
+                        <button class="btn--base btn--base-e text-light mt-auto" type="button">بدء الخدمة</button>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12" data-aos="fade-zoom-in" data-aos-duration="1500">
+                    <div class="card text-center">
+                        <i class="fa-solid fa-magnifying-glass-location"></i>
+                        <h5 classs="my-auto">الاستعلام عن المقابر</h5>
+                        <button class="btn--base btn--base-e text-light mt-auto" type="button">بدء الخدمة</button>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12" data-aos="fade-zoom-in" data-aos-duration="1500">
+                    <div class="card text-center">
+                        <i class="fa-solid fa-calendar-days"></i>
+                        <h5 classs="my-auto">خدمة</h5>
+                        <button class="btn--base btn--base-e text-light mt-auto" type="button">بدء الخدمة</button>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <button class="btn--base btn--base-e mt-3 mx-auto w-50" type="button">جميع الخدمات</button>
             </div>
         </div>
     </section>
     <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
         End Services 
-    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-        Start Expertise 
-    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-    <section class="expertise bg_img bg-fixed" data-background="assets/images/element/e1.jpg">
-        <div class="container mx-auto">
-            <div class="row main-content">
-                <div class="col-lg-6 col-md-6 col-12 my-auto">
-                    <div class="text-content">
-                        <h3>our smart technical expertise team</span>
-                        </h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente sequi nemo, facere vel maiores iste, cum id, doloremque porro aliquid aliquam laborum. Aperiam alias non totam distinctio, atque tempore ipsam! Lorem ipsum dolor
-                            sit amet, consectetur adipisicing elit. Sapiente sequi nemo, facere vel maiores iste, cum id, doloremque porro aliquid aliquam laborum. Aperiam alias non totam distinctio, atque tempore ipsam!</p>
-
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente sequi nemo, facere vel maiores iste, cum id, doloremque porro aliquid aliquam laborum. Aperiam alias non totam distinctio, atque tempore ipsam!</p>
-                    </div>
-
-                </div>
-                <div class="col-lg-6 col-md-6 col-12">
-
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-        End Expertise 
-    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-
-    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-        Start info 
-    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-    <section class="escroc-info ptb-60">
-        <div class="container mx-auto">
-            <div class="row">
-                <div class="col-lg-6 col-md-6 col-12 right-thumb" data-aos="fade-right">
-                    <img src="assets/images/element/b2.png" alt="image" />
-                </div>
-                <div class="col-lg-6 col-md-6 col-12 my-auto content pt-lg-0 pt-md-0 pt-3" data-aos="fade-left">
-                    <h3 class="text-bottom">The most trusted, online escroc service in the world.</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur.</p>
-                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-        End info 
-    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-
-    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-        Start Client
-    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-    <section class="client ptb-60">
-        <div class="container mx-auto client">
-            <div class="row">
-                <div class="col-12 my-auto">
-                    <div class="content">
-                        <h3>What Client <span>say</span> about our <br> Services</h3>
-                    </div>
-                </div>
-                <div class="col-12">
-                    <div class="overflow-hidden">
-                        <div class="client-slider mt-2">
-                            <div class="swiper-wrapper">
-                                <div class="swiper-slide">
-                                    <div class="d-flex flex-wrap card" data-aos="zoom-in">
-                                        <div class="client-thumb">
-                                            <img src="assets/images/client/client-2.jpg" alt="client">
-                                        </div>
-                                        <div class="client-content">
-                                            <p>Odio expedita neque illo deserunt quasi consequatur tenetur fugiat deleniti nisi ad dolores accusamus cumque sapiente sequi hic nam dolorum culpa laborum excepturi libero minima. Voluptas quas expedita quae
-                                                quidem itaque facere
-                                            </p>
-                                            <h3>Jhon Sumit</h3>
-                                            <p class="sub">CEO - FOUNDER</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="d-flex flex-wrap card" data-aos="zoom-in">
-                                        <div class="client-thumb">
-                                            <img src="assets/images/client/client-3.jpg" alt="client">
-                                        </div>
-                                        <div class="client-content">
-                                            <p>Odio expedita neque illo deserunt quasi consequatur tenetur fugiat deleniti nisi ad dolores accusamus cumque sapiente sequi hic nam dolorum culpa laborum excepturi libero minima. Voluptas quas expedita quae
-                                                quidem itaque facere
-                                            </p>
-                                            <h3>Alex Sumit</h3>
-                                            <p class="sub">CEO - FOUNDER</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="d-flex flex-wrap card" data-aos="zoom-in">
-                                        <div class="client-thumb">
-                                            <img src="assets/images/client/user.jpg" alt="client">
-                                        </div>
-                                        <div class="client-content">
-                                            <p>Odio expedita neque illo deserunt quasi consequatur tenetur fugiat deleniti nisi ad dolores accusamus cumque sapiente sequi hic nam dolorum culpa laborum excepturi libero minima. Voluptas quas expedita quae
-                                                quidem itaque facere
-                                            </p>
-                                            <h3>Debit Sumit</h3>
-                                            <p class="sub">CEO - FOUNDER</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="d-flex flex-wrap card" data-aos="zoom-in">
-                                        <div class="client-thumb">
-                                            <img src="assets/images/client/client-1.jpg" alt="client">
-                                        </div>
-                                        <div class="client-content">
-                                            <p>Odio expedita neque illo deserunt quasi consequatur tenetur fugiat deleniti nisi ad dolores accusamus cumque sapiente sequi hic nam dolorum culpa laborum excepturi libero minima. Voluptas quas expedita quae
-                                                quidem itaque facere
-                                            </p>
-                                            <h3>Olivia Sumit</h3>
-                                            <p class="sub">CEO - FOUNDER</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-pagination"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-        End Client 
-    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-
-    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-        Start app
-    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-    <section class="app pt-60 mb-30">
-        <div class="container mx-auto">
-            <div class="row">
-                <div class="col-lg-6 col-md-12 col-12 my-auto content pt-lg-0 pt-md-0 pt-3">
-                    <h3 class="text-bottom">Download Our Best <span>Faster</span> App</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur.</p>
-                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur.</p>
-                    <div class="pt-3 mb-50">
-                        <a href="#" class="btn--base me-3"><img src="assets/images/element/play-store.png" alt="image"> Google Play
-                        </a>
-                        <a href="#" class="btn--base me-3 mt-lg-0 mt-md-0 mt-3"><img src="assets/images/element/apple-store.png" alt="image"> App Store
-                        </a>
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-12 col-12 right-thumb">
-                    <img src="assets/images/element/app.png" alt="image" />
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-        End app 
-    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-
-    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-        Start Blog
-    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-    <section class="blog ptb-60">
-        <div class="container mx-auto">
-            <div class="text-center text-content">
-                <h3>Our Latest <span>Blogs</span></h3>
-            </div>
-            <div class="ptb-40">
-                <div class="blog-slider mt-2">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <div class="card">
-                                <img src="assets/images/element/blog.jpg" class="main-img" alt="image">
-                                <div class="card-body py-4">
-                                    <div class="d-flex author-content">
-                                        <img src="assets/images/client/client-2.jpg" alt="" srcset="">
-                                        <p class="author my-auto">By Jhon Doe</p>
-                                    </div>
-                                    <a href="blog-details.html">
-                                        <h5 class="text-capitalize fw-bold fs-4 title">The Security Risks & Changing Method
-                                        </h5>
-
-                                        <p class="card-text py-2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam labore nihil impedit rerum. Illo quibusdam quos nobis praesentium.
-                                        </p>
-                                    </a>
-                                    <a href="blog-details.html" class="link">Read More <i
-                                            class="las la-arrow-right"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="card">
-                                <img src="assets/images/element/blog2.jpg" class="main-img" alt="image">
-                                <div class="card-body py-4">
-                                    <div class="d-flex author-content">
-                                        <img src="assets/images/client/client-3.jpg" alt="" srcset="">
-                                        <p class="author my-auto">By Debit Doe</p>
-                                    </div>
-                                    <a href="blog-details.html">
-                                        <h5 class="text-capitalize fw-bold fs-4 title">Escrow payment gateway system requirements
-                                        </h5>
-
-                                        <p class="card-text py-2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam labore nihil impedit rerum. Illo quibusdam quos nobis praesentium.
-                                        </p>
-                                    </a>
-                                    <a href="blog-details.html" class="link">Read More <i
-                                            class="las la-arrow-right"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="card">
-                                <img src="assets/images/element/blog3.jpg" class="main-img" alt="image">
-                                <div class="card-body py-4">
-                                    <div class="d-flex author-content">
-                                        <img src="assets/images/client/user.jpg" alt="" srcset="">
-                                        <p class="author my-auto">By Jhon Sumit</p>
-                                    </div>
-                                    <a href="blog-details.html">
-                                        <h5 class="text-capitalize fw-bold fs-4 title">How to create an escrow company account
-                                        </h5>
-
-                                        <p class="card-text py-2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam labore nihil impedit rerum. Illo quibusdam quos nobis praesentium.
-                                        </p>
-                                    </a>
-                                    <a href="blog-details.html" class="link">Read More <i
-                                            class="las la-arrow-right"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="card">
-                                <img src="assets/images/element/blog4.jpg" class="main-img" alt="image">
-                                <div class="card-body py-4">
-                                    <div class="d-flex author-content">
-                                        <img src="assets/images/client/client-2.jpg" alt="" srcset="">
-                                        <p class="author my-auto">By Jhon Doe</p>
-                                    </div>
-                                    <a href="blog-details.html">
-                                        <h5 class="text-capitalize fw-bold fs-4 title">Escrow payment gateway integration in php
-                                        </h5>
-
-                                        <p class="card-text py-2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam labore nihil impedit rerum. Illo quibusdam quos nobis praesentium.
-                                        </p>
-                                    </a>
-                                    <a href="blog-details.html" class="link">Read More <i
-                                            class="las la-arrow-right"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-        End Blog
     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
     <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -557,9 +262,8 @@
         <div class="container mx-auto">
             <div class="sec-bg">
                 <div class="d-lg-flex d-md-flex d-block justify-content-between">
-                    <h3>Are You Ready To Start Esrcoc ?</h3>
-                    <a href="#" class="btn--base">Let Talk Our Expertise <i
-                            class="las la-arrow-alt-circle-right"></i></a>
+                    <h3>التطوع في تجهيز الموتى</h3>
+                    <a href="#" class="btn--base">انضمام</a>
                 </div>
             </div>
         </div>
@@ -567,6 +271,573 @@
     <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
         End Join
     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+
+    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        Start Courses
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+
+    <section class="courses ptb-60">
+        <div class="container mx-auto">
+            <div class="text-center text-content">
+                <h1>الدورات</h1>
+            </div>
+            <div class="ptb-40">
+                <div class="courses-slider mt-2">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <img src="assets/images/element/courses-image.jpg" class="img-fluid main-img"
+                                    alt="image">
+                                <div class="card-body py-4">
+                                    <div class="d-flex author-content">
+                                        <img src="assets/images/logo/ikram-logo-250.png" alt="" srcset="">
+                                        <p class="author my-auto">جمعية إكرام</p>
+                                    </div>
+                                    <a href="courses-details.html">
+                                        <h5 class="text-capitalize fw-bold fs-4 title">عنوان الدورة
+                                        </h5>
+
+                                        <p class="card-text py-2">هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة،
+                                            لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو
+                                            العديد من النصوص
+                                        </p>
+                                    </a>
+                                    <div class="d-flex justify-content-between">
+                                        <a href="courses-details.html" class="link">التسجيل<i
+                                                class="las la-arrow-left"></i></a>
+                                        <span class="align-self-center date text-secondary">10/10/2022 <i
+                                                class="fa-solid fa-calendar-days"></i></span>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <img src="assets/images/element/courses-image.jpg" class="img-fluid main-img"
+                                    alt="image">
+                                <div class="card-body py-4">
+                                    <div class="d-flex author-content">
+                                        <img src="assets/images/logo/ikram-logo-250.png" alt="" srcset="">
+                                        <p class="author my-auto">جمعية إكرام</p>
+                                    </div>
+                                    <a href="courses-details.html">
+                                        <h5 class="text-capitalize fw-bold fs-4 title">عنوان الدورة
+                                        </h5>
+
+                                        <p class="card-text py-2">هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة،
+                                            لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو
+                                            العديد من النصوص
+                                        </p>
+                                    </a>
+                                    <div class="d-flex justify-content-between">
+                                        <a href="courses-details.html" class="link">التسجيل<i
+                                                class="las la-arrow-left"></i></a>
+                                        <span class="align-self-center date text-secondary">10/10/2022 <i
+                                                class="fa-solid fa-calendar-days"></i></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <img src="assets/images/element/courses-image.jpg" class="img-fluid main-img"
+                                    alt="image">
+                                <div class="card-body py-4">
+                                    <div class="d-flex author-content">
+                                        <img src="assets/images/logo/ikram-logo-250.png" alt="" srcset="">
+                                        <p class="author my-auto">جمعية إكرام</p>
+                                    </div>
+                                    <a href="courses-details.html">
+                                        <h5 class="text-capitalize fw-bold fs-4 title">عنوان الدورة
+                                        </h5>
+
+                                        <p class="card-text py-2">هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة،
+                                            لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو
+                                            العديد من النصوص
+                                        </p>
+                                    </a>
+                                    <div class="d-flex justify-content-between">
+                                        <a href="courses-details.html" class="link">التسجيل<i
+                                                class="las la-arrow-left"></i></a>
+                                        <span class="align-self-center date text-secondary">10/10/2022 <i
+                                                class="fa-solid fa-calendar-days"></i></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <img src="assets/images/element/courses-image.jpg" class="img-fluid main-img"
+                                    alt="image">
+                                <div class="card-body py-4">
+                                    <div class="d-flex author-content">
+                                        <img src="assets/images/logo/ikram-logo-250.png" alt="" srcset="">
+                                        <p class="author my-auto">جمعية إكرام</p>
+                                    </div>
+                                    <a href="courses-details.html">
+                                        <h5 class="text-capitalize fw-bold fs-4 title">عنوان الدورة
+                                        </h5>
+
+                                        <p class="card-text py-2">هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة،
+                                            لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو
+                                            العديد من النصوص
+                                        </p>
+                                    </a>
+                                    <div class="d-flex justify-content-between">
+                                        <a href="courses-details.html" class="link">التسجيل<i
+                                                class="las la-arrow-left"></i></a>
+                                        <span class="align-self-center date text-secondary">10/10/2022 <i
+                                                class="fa-solid fa-calendar-days"></i></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <img src="assets/images/element/courses-image.jpg" class="img-fluid main-img"
+                                    alt="image">
+                                <div class="card-body py-4">
+                                    <div class="d-flex author-content">
+                                        <img src="assets/images/logo/ikram-logo-250.png" alt="" srcset="">
+                                        <p class="author my-auto">جمعية إكرام</p>
+                                    </div>
+                                    <a href="courses-details.html">
+                                        <h5 class="text-capitalize fw-bold fs-4 title">عنوان الدورة
+                                        </h5>
+
+                                        <p class="card-text py-2">هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة،
+                                            لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو
+                                            العديد من النصوص
+                                        </p>
+                                    </a>
+                                    <div class="d-flex justify-content-between">
+                                        <a href="courses-details.html" class="link">التسجيل<i
+                                                class="las la-arrow-left"></i></a>
+                                        <span class="align-self-center date text-secondary">10/10/2022 <i
+                                                class="fa-solid fa-calendar-days"></i></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <img src="assets/images/element/courses-image.jpg" class="img-fluid main-img"
+                                    alt="image">
+                                <div class="card-body py-4">
+                                    <div class="d-flex author-content">
+                                        <img src="assets/images/logo/ikram-logo-250.png" alt="" srcset="">
+                                        <p class="author my-auto">جمعية إكرام</p>
+                                    </div>
+                                    <a href="courses-details.html">
+                                        <h5 class="text-capitalize fw-bold fs-4 title">عنوان الدورة
+                                        </h5>
+
+                                        <p class="card-text py-2">هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة،
+                                            لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو
+                                            العديد من النصوص
+                                        </p>
+                                    </a>
+                                    <div class="d-flex justify-content-between">
+                                        <a href="courses-details.html" class="link">التسجيل<i
+                                                class="las la-arrow-left"></i></a>
+                                        <span class="align-self-center date text-secondary ">10/10/2022 <i
+                                                class="fa-solid fa-calendar-days"></i></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <button class="btn--base btn--base-e mt-5 mx-auto w-50" type="button">جميع الدورات</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        End Courses 
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+
+
+    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    Start Projects
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+    <section class="projects ptb-60">
+        <div class="container mx-auto projects">
+            <div class="row">
+                <div class="col-12 my-auto">
+                    <div class="text-center text-content">
+                        <h1>أحدث المشاريع</h1>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="overflow-hidden">
+                        <div class="projects-slider mt-2">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="d-flex flex-wrap card" data-aos="zoom-in">
+                                        <img src="assets/images/element/blog-image.jpg" class="main-img" alt="image">
+                                        <div class="projects-thumb">
+                                            <img src="assets/images/logo/ikram-logo-250.png" alt="projects">
+                                        </div>
+                                        <div class="projects-content text-start mt-3">
+                                            <h3>وقف الجمعية </h3>
+                                            <p>هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق.</p>
+                                            <h3>تبرع بـ :</h3>
+                                            <div class="d-flex flex-wrap">
+                                                <hr class="style-1 mb-4">
+                                                <label class="card-radio-btn">
+                                                  <input type="radio" name="demo" class="card-input-element d-none" value="demo2">
+                                                  <div class="card card-body m-1 p-1">
+                                                    <div class="content_sub">100 ر.س</div>
+                                                  </div>
+                                                </label>
+                                                <label class="card-radio-btn">
+                                                  <input type="radio" name="demo" class="card-input-element d-none" value="demo2">
+                                                  <div class="card card-body m-1 p-1">
+                                                    <div class="content_sub">50 ر.س</div>
+                                                  </div>
+                                                </label>
+                                                <label class="card-radio-btn">
+                                                  <input type="radio" name="demo" class="card-input-element d-none" value="demo2">
+                                                  <div class="card card-body m-1 p-1">
+                                                    <div class="content_sub">10 ر.س</div>
+                                                  </div>
+                                                </label>
+                                              </div>
+                                              <div class="row">
+                                                <button class="btn--base btn--base-e mt-2 mx-auto" type="button">تبرع الآن</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="d-flex flex-wrap card" data-aos="zoom-in">
+                                        <img src="assets/images/element/blog-image.jpg" class="main-img" alt="image">
+                                        <div class="projects-thumb">
+                                            <img src="assets/images/logo/ikram-logo-250.png" alt="projects">
+                                        </div>
+                                        <div class="projects-content text-start mt-3">
+                                            <h3>توفير سيارة لنقل الجنائز</h3>
+                                            <p>هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق.</p>
+                                            <h3>تبرع بـ :</h3>
+                                            <div class="d-flex flex-wrap">
+                                                <hr class="style-1 mb-4">
+                                                <label class="card-radio-btn">
+                                                  <input type="radio" name="demo" class="card-input-element d-none" value="demo2">
+                                                  <div class="card card-body m-1 p-1">
+                                                    <div class="content_sub">100 ر.س</div>
+                                                  </div>
+                                                </label>
+                                                <label class="card-radio-btn">
+                                                  <input type="radio" name="demo" class="card-input-element d-none" value="demo2">
+                                                  <div class="card card-body m-1 p-1">
+                                                    <div class="content_sub">50 ر.س</div>
+                                                  </div>
+                                                </label>
+                                                <label class="card-radio-btn">
+                                                  <input type="radio" name="demo" class="card-input-element d-none" value="demo2">
+                                                  <div class="card card-body m-1 p-1">
+                                                    <div class="content_sub">10 ر.س</div>
+                                                  </div>
+                                                </label>
+                                              </div>
+                                              <div class="row">
+                                                <button class="btn--base btn--base-e mt-2 mx-auto" type="button">تبرع الآن</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="d-flex flex-wrap card" data-aos="zoom-in">
+                                        <img src="assets/images/element/blog-image.jpg" class="main-img" alt="image">
+                                        <div class="projects-thumb">
+                                            <img src="assets/images/logo/ikram-logo-250.png" alt="projects">
+                                        </div>
+                                        <div class="projects-content text-start mt-3">
+                                            <h3>سقيا المقابر </h3>
+                                            <p>هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق.</p>
+                                            <h3>تبرع بـ :</h3>
+                                            <div class="d-flex flex-wrap">
+                                                <hr class="style-1 mb-4">
+                                                <label class="card-radio-btn">
+                                                  <input type="radio" name="demo" class="card-input-element d-none" value="demo2">
+                                                  <div class="card card-body m-1 p-1">
+                                                    <div class="content_sub">100 ر.س</div>
+                                                  </div>
+                                                </label>
+                                                <label class="card-radio-btn">
+                                                  <input type="radio" name="demo" class="card-input-element d-none" value="demo2">
+                                                  <div class="card card-body m-1 p-1">
+                                                    <div class="content_sub">50 ر.س</div>
+                                                  </div>
+                                                </label>
+                                                <label class="card-radio-btn">
+                                                  <input type="radio" name="demo" class="card-input-element d-none" value="demo2">
+                                                  <div class="card card-body m-1 p-1">
+                                                    <div class="content_sub">10 ر.س</div>
+                                                  </div>
+                                                </label>
+                                              </div>
+                                              <div class="row">
+                                                <button class="btn--base btn--base-e mt-2 mx-auto" type="button">تبرع الآن</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="d-flex flex-wrap card" data-aos="zoom-in">
+                                        <img src="assets/images/element/blog-image.jpg" class="main-img" alt="image">
+                                        <div class="projects-thumb">
+                                            <img src="assets/images/logo/ikram-logo-250.png" alt="projects">
+                                        </div>
+                                        <div class="projects-content text-start mt-3">
+                                            <h3>تامين احتياجات مغاسل الموتى</h3>
+                                            <p>هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق.</p>
+                                            <h3>تبرع بـ :</h3>
+                                            <div class="d-flex flex-wrap">
+                                                <hr class="style-1 mb-4">
+                                                <label class="card-radio-btn">
+                                                  <input type="radio" name="demo" class="card-input-element d-none" value="demo2">
+                                                  <div class="card card-body m-1 p-1">
+                                                    <div class="content_sub">100 ر.س</div>
+                                                  </div>
+                                                </label>
+                                                <label class="card-radio-btn">
+                                                  <input type="radio" name="demo" class="card-input-element d-none" value="demo2">
+                                                  <div class="card card-body m-1 p-1">
+                                                    <div class="content_sub">50 ر.س</div>
+                                                  </div>
+                                                </label>
+                                                <label class="card-radio-btn">
+                                                  <input type="radio" name="demo" class="card-input-element d-none" value="demo2">
+                                                  <div class="card card-body m-1 p-1">
+                                                    <div class="content_sub">10 ر.س</div>
+                                                  </div>
+                                                </label>
+                                              </div>
+                                              <div class="row">
+                                                <button class="btn--base btn--base-e mt-2 mx-auto" type="button">تبرع الآن</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="d-flex flex-wrap card" data-aos="zoom-in">
+                                        <img src="assets/images/element/blog-image.jpg" class="main-img" alt="image">
+                                        <div class="projects-thumb">
+                                            <img src="assets/images/logo/ikram-logo-250.png" alt="projects">
+                                        </div>
+                                        <div class="projects-content text-start mt-3">
+                                            <h3>وقف الجمعية </h3>
+                                            <p>هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق.</p>
+                                            <h3>تبرع بـ :</h3>
+                                            <div class="d-flex flex-wrap">
+                                                <hr class="style-1 mb-4">
+                                                <label class="card-radio-btn">
+                                                  <input type="radio" name="demo" class="card-input-element d-none" value="demo2">
+                                                  <div class="card card-body m-1 p-1">
+                                                    <div class="content_sub">100 ر.س</div>
+                                                  </div>
+                                                </label>
+                                                <label class="card-radio-btn">
+                                                  <input type="radio" name="demo" class="card-input-element d-none" value="demo2">
+                                                  <div class="card card-body m-1 p-1">
+                                                    <div class="content_sub">50 ر.س</div>
+                                                  </div>
+                                                </label>
+                                                <label class="card-radio-btn">
+                                                  <input type="radio" name="demo" class="card-input-element d-none" value="demo2">
+                                                  <div class="card card-body m-1 p-1">
+                                                    <div class="content_sub">10 ر.س</div>
+                                                  </div>
+                                                </label>
+                                              </div>
+                                              <div class="row">
+                                                <button class="btn--base btn--base-e mt-2 mx-auto" type="button">تبرع الآن</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <button class="btn--base btn--base-e mt-5 mx-auto w-50" type="button">جميع المشاريع</button>
+            </div>
+        </div>
+    </section>
+    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    End projects 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+
+    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        Start Blog
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+    <section class="blog ptb-60">
+        <div class="container mx-auto">
+            <div class="text-center text-content">
+                <h1>أخبار المنصة</h1>
+            </div>
+            <div class="ptb-40">
+                <div class="blog-slider mt-2">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <img src="assets/images/element/blog-image.jpg" class="main-img" alt="image">
+                                <div class="card-body py-4">
+                                    <a href="blog-details.html">
+                                        <h5 class="text-capitalize fw-bold fs-4 title">هذا النص هو مثال لنص يمكن أن
+                                            يستبدل في نفس المساحة
+                                        </h5>
+
+                                        <p class="card-text py-2">هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة،
+                                            لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو
+                                            العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق.
+                                            إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد
+                                            الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى
+                                            مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج العميل فى كثير من الأحيان أن
+                                            يطلع على صورة حقيقية لتصميم الموقع.
+                                        </p>
+                                    </a>
+                                    <a href="blog-details.html" class="link">المزيد <i
+                                            class="las la-arrow-left"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <img src="assets/images/element/blog-image.jpg" class="main-img" alt="image">
+                                <div class="card-body py-4">
+                                    <a href="blog-details.html">
+                                        <h5 class="text-capitalize fw-bold fs-4 title">هذا النص هو مثال لنص يمكن أن
+                                            يستبدل في نفس المساحة
+                                        </h5>
+
+                                        <p class="card-text py-2">هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة،
+                                            لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو
+                                            العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق.
+                                            إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد
+                                            الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى
+                                            مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج العميل فى كثير من الأحيان أن
+                                            يطلع على صورة حقيقية لتصميم الموقع.
+                                        </p>
+                                    </a>
+                                    <a href="blog-details.html" class="link">المزيد <i
+                                            class="las la-arrow-left"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <img src="assets/images/element/blog-image.jpg" class="main-img" alt="image">
+                                <div class="card-body py-4">
+                                    <a href="blog-details.html">
+                                        <h5 class="text-capitalize fw-bold fs-4 title">هذا النص هو مثال لنص يمكن أن
+                                            يستبدل في نفس المساحة
+                                        </h5>
+
+                                        <p class="card-text py-2">هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة،
+                                            لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو
+                                            العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق.
+                                            إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد
+                                            الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى
+                                            مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج العميل فى كثير من الأحيان أن
+                                            يطلع على صورة حقيقية لتصميم الموقع.
+                                        </p>
+                                    </a>
+                                    <a href="blog-details.html" class="link">المزيد <i
+                                            class="las la-arrow-left"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <img src="assets/images/element/blog-image.jpg" class="main-img" alt="image">
+                                <div class="card-body py-4">
+                                    <a href="blog-details.html">
+                                        <h5 class="text-capitalize fw-bold fs-4 title">هذا النص هو مثال لنص يمكن أن
+                                            يستبدل في نفس المساحة
+                                        </h5>
+
+                                        <p class="card-text py-2">هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة،
+                                            لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو
+                                            العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق.
+                                            إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد
+                                            الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى
+                                            مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج العميل فى كثير من الأحيان أن
+                                            يطلع على صورة حقيقية لتصميم الموقع.
+                                        </p>
+                                    </a>
+                                    <a href="blog-details.html" class="link">المزيد <i
+                                            class="las la-arrow-left"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <img src="assets/images/element/blog-image.jpg" class="main-img" alt="image">
+                                <div class="card-body py-4">
+                                    <a href="blog-details.html">
+                                        <h5 class="text-capitalize fw-bold fs-4 title">هذا النص هو مثال لنص يمكن أن
+                                            يستبدل في نفس المساحة
+                                        </h5>
+
+                                        <p class="card-text py-2">هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة،
+                                            لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو
+                                            العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق.
+                                            إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد
+                                            الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى
+                                            مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج العميل فى كثير من الأحيان أن
+                                            يطلع على صورة حقيقية لتصميم الموقع.
+                                        </p>
+                                    </a>
+                                    <a href="blog-details.html" class="link">المزيد <i
+                                            class="las la-arrow-left"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <img src="assets/images/element/blog-image.jpg" class="main-img" alt="image">
+                                <div class="card-body py-4">
+                                    <a href="blog-details.html">
+                                        <h5 class="text-capitalize fw-bold fs-4 title">هذا النص هو مثال لنص يمكن أن
+                                            يستبدل في نفس المساحة
+                                        </h5>
+
+                                        <p class="card-text py-2">هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة،
+                                            لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو
+                                            العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق.
+                                            إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد
+                                            الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى
+                                            مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج العميل فى كثير من الأحيان أن
+                                            يطلع على صورة حقيقية لتصميم الموقع.
+                                        </p>
+                                    </a>
+                                    <a href="blog-details.html" class="link">المزيد <i
+                                            class="las la-arrow-left"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <button class="btn--base btn--base-e mt-5 mx-auto w-50" type="button">جميع الأخبار</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        End Blog
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+
+
 
     <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
         Start Footer 
@@ -577,11 +848,8 @@
                 <div class="row">
                     <div class="col-xl-4 col-lg-4 mb-50">
                         <div class="footer-widget">
-                            <div class="footer-text">
-                                <p>Lorem ipsum dolor sit amet, consec tetur adipisicing elit, sed do eiusmod tempor incididuntut consec tetur adipisicing elit,Lorem ipsum dolor sit amet.</p>
-                            </div>
                             <div class="footer-social-icon">
-                                <span>Follow us</span>
+                                <span>تواصل معنا</span>
                                 <a href="#"><i class="fab fa-facebook-f facebook-bg"></i></a>
                                 <a href="#"><i class="fab fa-twitter twitter-bg"></i></a>
                                 <a href="#"><i class="fab fa-instagram instagram-bg"></i></a>
@@ -592,29 +860,29 @@
                     <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
                         <div class="footer-widget">
                             <div class="footer-widget-heading">
-                                <h3>Useful Links</h3>
+                                <h3>الوصول السريع</h3>
                             </div>
                             <ul>
-                                <li><a href="index.html">Home</a></li>
-                                <li><a href="about.html">about</a></li>
-                                <li><a href="login.html">Login</a></li>
-                                <li><a href="blog.html">Blog</a></li>
-                                <li><a href="signup.html">Signup</a></li>
-                                <li><a href="privacy.html">Privacy</a></li>
+                                <li><a href="index.html">الرئيسية</a></li>
+                                <li><a href="about.html">عن المنصة</a></li>
+                                <li><a href="login.html">دخول</a></li>
+                                <li><a href="blog.html">الأخبار</a></li>
+                                <li><a href="signup.html">انشاء حساب</a></li>
+                                <li><a href="privacy.html">الخصوصية</a></li>
                             </ul>
                         </div>
                     </div>
                     <div class="col-xl-4 col-lg-4 col-md-6 mb-50">
                         <div class="footer-widget">
                             <div class="footer-widget-heading">
-                                <h3>Subscribe</h3>
+                                <h3>القائمة البريدية</h3>
                             </div>
                             <div class="footer-text mb-25">
-                                <p>Don’t miss to subscribe to our new feeds, kindly fill the form below.</p>
+                                <p>لمعرفة آخر أخبار المنصة</p>
                             </div>
                             <div class="subscribe-form">
                                 <form action="#">
-                                    <input type="text" placeholder="Email Address">
+                                    <input type="text" placeholder="البريد الإلكتروني">
                                     <button><i class="fab fa-telegram-plane"></i></button>
                                 </form>
                             </div>
@@ -628,7 +896,7 @@
                 <div class="row">
                     <div class="col-12 text-center text-lg-left">
                         <div class="copyright-text">
-                            <p>Copyright &copy; 2022, All Right Reserved <a href="#">Escroc</a>
+                            <p>جميع الحقوق محفوظة &copy; 2022, <a href="#">منصة إكرام</a>
                             </p>
                         </div>
                     </div>
@@ -649,6 +917,8 @@
     <script src="assets/js/jquery-3.6.0.min.js"></script>
     <!-- bootstrap js -->
     <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/2197123105.js" crossorigin="anonymous"></script>
     <!-- swipper js -->
     <script src="assets/js/swiper.min.js"></script>
     <!-- lightcase js-->
@@ -668,68 +938,14 @@
         });
     </script>
     <script src="assets/js/jquery.nice-select.js"></script>
+
+    <script src="assets/js/custom.js"></script>
+
     <script>
         $("select").niceSelect()
     </script>
     <script>
-        var swiper = new Swiper(".client-slider", {
-            slidesPerView: 3,
-            spaceBetween: 30,
-            pagination: {
-                el: ".swiper-pagination",
-                clickable: true,
-            },
-            autoplay: {
-                speed: 1000,
-                delay: 3000,
-            },
-            speed: 1000,
-            breakpoints: {
-                '480': {
-                    slidesPerView: 1,
-                    spaceBetween: 30,
-                },
-                '768': {
-                    slidesPerView: 2,
-                    spaceBetween: 20,
-                },
-                '820': {
-                    slidesPerView: 2,
-                    spaceBetween: 20,
-                },
-                '912': {
-                    slidesPerView: 2,
-                    spaceBetween: 20,
-                },
-            },
-        });
-        var swiper = new Swiper(".blog-slider", {
-            slidesPerView: 3,
-            spaceBetween: 30,
-            autoplay: {
-                speed: 1000,
-                delay: 3000,
-            },
-            speed: 1000,
-            breakpoints: {
-                '480': {
-                    slidesPerView: 1,
-                    spaceBetween: 30,
-                },
-                '768': {
-                    slidesPerView: 2,
-                    spaceBetween: 20,
-                },
-                '820': {
-                    slidesPerView: 2,
-                    spaceBetween: 20,
-                },
-                '912': {
-                    slidesPerView: 2,
-                    spaceBetween: 20,
-                },
-            },
-        });
+
     </script>
 </body>
 
