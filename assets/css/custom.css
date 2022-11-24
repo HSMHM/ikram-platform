@@ -18,11 +18,16 @@ label,
 table,
 th,
 tr,
-tf,
+td,
 .btn,
 .sidebar__menu-wrapper .menu-title {
     font-family: Almarai !important;
     letter-spacing: 0em !important;
+}
+
+.custom-table .status--btn {
+    letter-spacing: 0;
+    width: auto;
 }
 
 .table-content .dCard-1 {
