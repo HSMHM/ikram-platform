@@ -15,10 +15,20 @@ fs-6,
 a,
 button,
 label,
+table,
+th,
+tr,
+tf,
 .btn,
 .sidebar__menu-wrapper .menu-title {
     font-family: Almarai !important;
     letter-spacing: 0em !important;
+}
+
+.table-content .dCard-1 {
+    background-color: #f1f1f1;
+    border-right: 0px;
+    box-shadow: 0 0 14px 0px #cbcbcb;
 }
 
 .sidebar__menu-wrapper .sidebar__menu .sidebar-menu-item a .menu-title {
