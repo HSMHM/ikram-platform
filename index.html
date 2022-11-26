@@ -7,6 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>منصة إكرام</title>
     <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;0,500;0,600;0,700;1,600&display=swap" rel="stylesheet">
+  <!-- fontawesome css link -->
+    <script src="https://kit.fontawesome.com/2197123105.js" crossorigin="anonymous"></script>
     <!-- bootstrap css link -->
     <link rel="stylesheet" href="assets/css/bootstrap.min-rtl.css">
     <!-- favicon -->
@@ -54,36 +56,26 @@
             <div class="header-bottom-area">
                 <div class="container">
                     <div class="header-menu-content">
-                        <nav class="navbar navbar-expand-lg p-0">
+                        <nav id="navbar" class="navbar navbar-expand-lg p-0">
                             <a class="site-logo site-title" href="index.html"><img src="assets/images/logo/ikram-logo-250.png" alt="site-logo"></a>
                             <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                                 <span class="fas fa-bars"></span>
                             </button>
                             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                                 <ul class="navbar-nav main-menu mx-auto">
-                                    <li><a href="index.html" class="active">الرئيسية</a></li>
-                                    <li><a href="about.html">الدورات</a></li>
-                                    <li><a href="services.html">الخدمات</a></li>
-                                    <li><a href="services.html">المشاريع</a></li>
-                                    <li><a href="contact.html">اتصل بنا</a></li>
-                                    <li><a href="#0">صفحات <i class="fas fa-angle-down ms-1"></i></a>
-                                        <ul class="sub-menu">
-                                            <li><a href="developer.html">Developer</a></li>
-                                            <li><a href="blog.html">Blog</a></li>
-                                            <li><a href="blog-details.html">Blog Details</a></li>
-                                            <li><a href="privacy.html">Privacy Policy</a></li>
-                                            <li><a href="login.html">Login</a></li>
-                                            <li><a href="signup.html">Signup</a></li>
-                                            <li><a href="404.html">404 Page</a></li>
-                                        </ul>
-                                    </li>
+                                    <li><a class="custom-nav-link" href="#features" class="active">عن إكرام</a></li>
+                                    <li><a class="custom-nav-link" href="#services">الخدمات</a></li>
+                                    <li><a class="custom-nav-link" href="#courses">الدورات</a></li>
+                                    <li><a class="custom-nav-link" href="#projects">المشاريع</a></li>
+                                    <li><a class="custom-nav-link" href="#news">اخبار المنصة</a></li>
+
                                 </ul>
                                 <div class="dropdown">
                                     <button class="btn--base btn--base-e dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
                                         حسابي
                                     </button>
                                     <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                                        <li><a class="dropdown-item" href="dashboard.html">حساب مغسلة</a></li>
+                                        <li><a class="dropdown-item" href="dashboard-ngo.html">حساب مغسلة</a></li>
                                         <li><a class="dropdown-item" href="dashboard-user.html">حساب فرد</a></li>
                                         <li>
                                             <hr class="dropdown-divider">
@@ -170,7 +162,7 @@
     <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
         Start Features 
     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-    <section class="features">
+    <section class="features" id="features">
         <div class="container mx-auto">
             <div class="row">
                 <div class="col-lg-6 col-md-6 col-12 right-thumb" data-aos="fade-right">
@@ -191,7 +183,7 @@
     <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
         Start Services 
     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-    <section class="services ptb-60">
+    <section class="services ptb-60" id="services">
         <div class="container mx-auto">
             <div class="text-content">
                 <h1>الخدمات</h1>
@@ -199,42 +191,43 @@
             <div class="row g-4 pb-3">
                 <div class="col-lg-4 col-md-6 col-12" data-aos="fade-zoom-in" data-aos-duration="1500">
                     <div class="card text-center">
-                        <i class="fa-solid fa-person-digging"></i>
+                        <i class="fa-duotone fa-person-digging"></i>
                         <h5 classs="my-auto">إكرام ميت</h5>
                         <a href="ikram-request.html" class="btn--base btn--base-e text-light mt-auto" type="button">بدء الخدمة</a>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-12" data-aos="fade-zoom-in" data-aos-duration="1500">
                     <div class="card text-center">
-                        <i class="fa-solid fa-mosque"></i>
+                        <i class="fa-duotone fa-mosque"></i>
                         <h5 classs="my-auto">الاستعلام عن مقدمي خدمات نقل وتجهيز الموتى</h5>
                         <button class="btn--base btn--base-e text-light mt-auto" type="button">بدء الخدمة</button>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-12" data-aos="fade-zoom-in" data-aos-duration="1500">
                     <div class="card text-center">
-                        <i class="fa-solid fa-door-closed"></i>
+
+                        <i class="fa-duotone fa-location-dot"></i>
                         <h5 classs="my-auto">الاستعلام عن قبر متوفي</h5>
                         <button class="btn--base btn--base-e text-light mt-auto" type="button">بدء الخدمة</button>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-12" data-aos="fade-zoom-in" data-aos-duration="1500">
                     <div class="card text-center">
-                        <i class="fa-solid fa-file-contract"></i>
-                        <h5 classs="my-auto">طباعة شهادة دفن</h5>
+                        <i class="fa-duotone fa-file-contract"></i>
+                        <h5 classs="my-auto">طباعة وثيقة تبليغ الوفاة</h5>
                         <button class="btn--base btn--base-e text-light mt-auto" type="button">بدء الخدمة</button>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-12" data-aos="fade-zoom-in" data-aos-duration="1500">
                     <div class="card text-center">
-                        <i class="fa-solid fa-magnifying-glass-location"></i>
+                        <i class="fa-duotone fa-magnifying-glass-location"></i>
                         <h5 classs="my-auto">الاستعلام عن المقابر</h5>
                         <button class="btn--base btn--base-e text-light mt-auto" type="button">بدء الخدمة</button>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-12" data-aos="fade-zoom-in" data-aos-duration="1500">
                     <div class="card text-center">
-                        <i class="fa-solid fa-calendar-days"></i>
+                        <i class="fa-duotone fa-calendar-days"></i>
                         <h5 classs="my-auto">خدمة</h5>
                         <button class="btn--base btn--base-e text-light mt-auto" type="button">بدء الخدمة</button>
                     </div>
@@ -253,12 +246,15 @@
         Start Join
     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
     <section class="join">
-        <div class="container mx-auto">
+        <div class="mx-auto">
             <div class="sec-bg">
-                <div class="d-lg-flex d-md-flex d-block justify-content-between">
-                    <h3>التطوع في تجهيز الموتى</h3>
-                    <a href="#" class="btn--base">انضمام</a>
+                <div class=" text-center d-lg-flex d-md-flex d-block justify-content-around">
+                    <div class="title-side text-center">
+                        <h3 class="mt-4">الانضمام إلى الفرص التطوعية</h3>
+                    </div>
+                    <a href="#" class="mt-4 btn--base">انضمام</a>
                 </div>
+
             </div>
         </div>
     </section>
@@ -270,7 +266,7 @@
         Start Courses
     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
-    <section class="courses ptb-60">
+    <section class="courses ptb-60" id="courses">
         <div class="container mx-auto">
             <div class="text-center text-content">
                 <h1>الدورات</h1>
@@ -440,7 +436,7 @@
     <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
     Start Projects
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-    <section class="projects ptb-60">
+    <section class="projects ptb-60" id="projects">
         <div class="container mx-auto projects">
             <div class="row">
                 <div class="col-12 my-auto">
@@ -655,7 +651,7 @@
     <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
         Start Blog
     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-    <section class="blog ptb-60">
+    <section class="blog ptb-60" id="news">
         <div class="container mx-auto">
             <div class="text-center text-content">
                 <h1>أخبار المنصة</h1>
@@ -667,7 +663,7 @@
                             <div class="card">
                                 <img src="assets/images/element/blog-image.jpg" class="main-img" alt="image">
                                 <div class="card-body py-4">
-                                    <a href="blog-details.html">
+                                    <a href="#">
                                         <h5 class="text-capitalize fw-bold fs-4 title">هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة
                                         </h5>
 
@@ -676,7 +672,7 @@
                                             أن يطلع على صورة حقيقية لتصميم الموقع.
                                         </p>
                                     </a>
-                                    <a href="blog-details.html" class="link">المزيد <i
+                                    <a href="#" class="link">المزيد <i
                                             class="las la-arrow-left"></i></a>
                                 </div>
                             </div>
@@ -685,7 +681,7 @@
                             <div class="card">
                                 <img src="assets/images/element/blog-image.jpg" class="main-img" alt="image">
                                 <div class="card-body py-4">
-                                    <a href="blog-details.html">
+                                    <a href="#">
                                         <h5 class="text-capitalize fw-bold fs-4 title">هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة
                                         </h5>
 
@@ -694,7 +690,7 @@
                                             أن يطلع على صورة حقيقية لتصميم الموقع.
                                         </p>
                                     </a>
-                                    <a href="blog-details.html" class="link">المزيد <i
+                                    <a href="#" class="link">المزيد <i
                                             class="las la-arrow-left"></i></a>
                                 </div>
                             </div>
@@ -703,7 +699,7 @@
                             <div class="card">
                                 <img src="assets/images/element/blog-image.jpg" class="main-img" alt="image">
                                 <div class="card-body py-4">
-                                    <a href="blog-details.html">
+                                    <a href="#">
                                         <h5 class="text-capitalize fw-bold fs-4 title">هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة
                                         </h5>
 
@@ -712,7 +708,7 @@
                                             أن يطلع على صورة حقيقية لتصميم الموقع.
                                         </p>
                                     </a>
-                                    <a href="blog-details.html" class="link">المزيد <i
+                                    <a href="#" class="link">المزيد <i
                                             class="las la-arrow-left"></i></a>
                                 </div>
                             </div>
@@ -721,7 +717,7 @@
                             <div class="card">
                                 <img src="assets/images/element/blog-image.jpg" class="main-img" alt="image">
                                 <div class="card-body py-4">
-                                    <a href="blog-details.html">
+                                    <a href="#">
                                         <h5 class="text-capitalize fw-bold fs-4 title">هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة
                                         </h5>
 
@@ -730,7 +726,7 @@
                                             أن يطلع على صورة حقيقية لتصميم الموقع.
                                         </p>
                                     </a>
-                                    <a href="blog-details.html" class="link">المزيد <i
+                                    <a href="#" class="link">المزيد <i
                                             class="las la-arrow-left"></i></a>
                                 </div>
                             </div>
@@ -739,7 +735,7 @@
                             <div class="card">
                                 <img src="assets/images/element/blog-image.jpg" class="main-img" alt="image">
                                 <div class="card-body py-4">
-                                    <a href="blog-details.html">
+                                    <a href="#">
                                         <h5 class="text-capitalize fw-bold fs-4 title">هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة
                                         </h5>
 
@@ -748,7 +744,7 @@
                                             أن يطلع على صورة حقيقية لتصميم الموقع.
                                         </p>
                                     </a>
-                                    <a href="blog-details.html" class="link">المزيد <i
+                                    <a href="#" class="link">المزيد <i
                                             class="las la-arrow-left"></i></a>
                                 </div>
                             </div>
@@ -757,7 +753,7 @@
                             <div class="card">
                                 <img src="assets/images/element/blog-image.jpg" class="main-img" alt="image">
                                 <div class="card-body py-4">
-                                    <a href="blog-details.html">
+                                    <a href="#">
                                         <h5 class="text-capitalize fw-bold fs-4 title">هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة
                                         </h5>
 
@@ -766,7 +762,7 @@
                                             أن يطلع على صورة حقيقية لتصميم الموقع.
                                         </p>
                                     </a>
-                                    <a href="blog-details.html" class="link">المزيد <i
+                                    <a href="#" class="link">المزيد <i
                                             class="las la-arrow-left"></i></a>
                                 </div>
                             </div>
@@ -810,11 +806,11 @@
                             </div>
                             <ul>
                                 <li><a href="index.html">الرئيسية</a></li>
-                                <li><a href="about.html">عن المنصة</a></li>
-                                <li><a href="login.html">دخول</a></li>
-                                <li><a href="blog.html">الأخبار</a></li>
-                                <li><a href="signup.html">انشاء حساب</a></li>
-                                <li><a href="privacy.html">الخصوصية</a></li>
+                                <li><a href="#">عن المنصة</a></li>
+                                <li><a href="#">دخول</a></li>
+                                <li><a href="#">الأخبار</a></li>
+                                <li><a href="#">انشاء حساب</a></li>
+                                <li><a href="#">الخصوصية</a></li>
                             </ul>
                         </div>
                     </div>
@@ -863,8 +859,6 @@
     <script src="assets/js/jquery-3.6.0.min.js"></script>
     <!-- bootstrap js -->
     <script src="assets/js/bootstrap.bundle.min.js"></script>
-    <!-- fontawesome -->
-    <script src="https://kit.fontawesome.com/2197123105.js" crossorigin="anonymous"></script>
     <!-- swipper js -->
     <script src="assets/js/swiper.min.js"></script>
     <!-- lightcase js-->
@@ -882,6 +876,18 @@
         AOS.init({
             duration: 1200,
         });
+    </script>
+    <script>
+$(document).ready(function() {
+
+$(".custom-nav-link").click(function(event){     
+    event.preventDefault();
+    $('html,body').animate({scrollTop:$(this.hash).offset().top - 100}, 100);
+});
+
+
+// document ready  
+});
     </script>
     <script src="assets/js/jquery.nice-select.js"></script>
 

@@ -5836,7 +5836,7 @@ option {
 .dashbord-user .icon {
     background-color: #17a2b8;
     border-radius: 999px;
-    padding: 10px;
+    padding: 12.5px;
     margin-bottom: 10px;
     -webkit-box-shadow: 0 5px 10px rgba(30, 32, 37, 0.12);
     box-shadow: 0 5px 10px rgba(30, 32, 37, 0.12);
@@ -5845,7 +5845,7 @@ option {
 }
 
 .dashbord-user .icon i {
-    font-size: 35px;
+    font-size: 25px;
     color: #ffffff;
 }
 

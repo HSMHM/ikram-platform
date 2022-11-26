@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>منصة إكرام</title>
-    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;0,500;0,600;0,700;1,600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;0,500;0,600;0,700;1,600&display=swap"
+        rel="stylesheet">
     <!-- fontawesome css link -->
     <script src="https://kit.fontawesome.com/2197123105.js" crossorigin="anonymous"></script>
     <!-- bootstrap css link -->
@@ -60,33 +61,57 @@
                     <div class="sidebar__menu-wrapper">
                         <ul class="sidebar__menu p-0">
                             <li class="sidebar-menu-item active">
-                                <a href="dashboard-user.html">
+                                <a href="dashboard-ngo.html">
                                     <i class="menu-icon fa-duotone fa-house"></i>
                                     <span class="menu-title">لوحة المعلومات</span>
                                 </a>
                             </li>
                             <li class="sidebar-menu-item ">
-                                <a href="dashboard-user-ikram-request-list.html">
+                                <a href="dashboard-ngo-ikram-request-list.html">
                                     <i class="menu-icon fa-duotone fa-memo-pad"></i>
-                                    <span class="menu-title">طلباتي</span>
+                                    <span class="menu-title">طلبات إكرام ميت</span>
                                 </a>
                             </li>
                             <li class="sidebar-menu-item ">
-                                <a href="dashboard-user-courses-list.html">
-                                    <i class="menu-icon fa-duotone fa-books"></i>
-                                    <span class="menu-title">دوراتي</span>
-                                </a>
-                            </li>
-                            <li class="sidebar-menu-item ">
-                                <a href="dashboard-user-donate-list.html">
+                                <a href="dashboard-ngo-donate-list.html">
                                     <i class="menu-icon fa-duotone fa-hand-holding-heart"></i>
-                                    <span class="menu-title">تبرعاتي</span>
+                                    <span class="menu-title">التبرعات</span>
                                 </a>
                             </li>
                             <li class="sidebar-menu-item ">
-                                <a href="dashboard-user-volunteering-list.html">
+                                <a href="dashboard-ngo-projects-list.html">
+                                    <i class="menu-icon fa-duotone fa-diagram-project"></i>
+                                    <span class="menu-title">المشاريع</span>
+                                </a>
+                            </li>
+                            <li class="sidebar-menu-item ">
+                                <a href="dashboard-ngo-courses-list.html">
+                                    <i class="menu-icon fa-duotone fa-books"></i>
+                                    <span class="menu-title">الدورات التدريبية</span>
+                                </a>
+                            </li>
+                            <li class="sidebar-menu-item ">
+                                <a href="dashboard-ngo-staff-list.html">
+                                    <i class="menu-icon fa-duotone fa-users"></i>
+                                    <span class="menu-title">الموظفين</span>
+                                </a>
+                            </li>
+                            <li class="sidebar-menu-item ">
+                                <a href="dashboard-ngo-volunters-list.html">
                                     <i class="menu-icon fa-duotone fa-handshake"></i>
-                                    <span class="menu-title">أعمالي التطوعية</span>
+                                    <span class="menu-title">المتطوعين</span>
+                                </a>
+                            </li>
+                            <li class="sidebar-menu-item ">
+                                <a href="dashboard-ngo-stock-list.html">
+                                    <i class="menu-icon fa-duotone fa-box-open-full"></i>
+                                    <span class="menu-title">المخزون</span>
+                                </a>
+                            </li>
+                            <li class="sidebar-menu-item ">
+                                <a href="dashboard-ngo-org-setting.html">
+                                    <i class="menu-icon fa-duotone fa-gears"></i>
+                                    <span class="menu-title">إعدادات ملف التعريف</span>
                                 </a>
                             </li>
                         </ul>
@@ -123,7 +148,8 @@
                         <div class="navbar__right ">
                             <ul class="navbar__action-list" style="list-style: none;">
                                 <li class="dropdown">
-                                    <button type="button" class="" data-bs-toggle="dropdown" data-display="static" aria-haspopup="true" aria-expanded="false">
+                                    <button type="button" class="" data-bs-toggle="dropdown" data-display="static"
+                                        aria-haspopup="true" aria-expanded="false">
                                         <span class="navbar-user">
                                             <span class="navbar-user__thumb"><img
                                                     src="assets/images/client/client-2.jpg" alt="user"></span>
@@ -133,16 +159,20 @@
                                             <span class="icon"><i class="las la-chevron-circle-down"></i></span>
                                         </span>
                                     </button>
-                                    <div class="dropdown-menu dropdown-menu--sm p-0 border-0 box--shadow1 dropdown-menu-right">
-                                        <a href="dashboard-user-profile.html" class="dropdown-menu__item d-flex align-items-center ps-3 pe-3 pt-2 pb-2">
+                                    <div
+                                        class="dropdown-menu dropdown-menu--sm p-0 border-0 box--shadow1 dropdown-menu-right">
+                                        <a href="dashboard-user-profile.html"
+                                            class="dropdown-menu__item d-flex align-items-center ps-3 pe-3 pt-2 pb-2">
                                             <i class="dropdown-menu__icon las la-user-circle"></i>
                                             <span class="dropdown-menu__caption">ملف التعريف</span>
                                         </a>
-                                        <a href="dashboard-password-change.html" class="dropdown-menu__item d-flex align-items-center ps-3 pe-3 pt-2 pb-2">
+                                        <a href="dashboard-password-change.html"
+                                            class="dropdown-menu__item d-flex align-items-center ps-3 pe-3 pt-2 pb-2">
                                             <i class="dropdown-menu__icon las la-key"></i>
                                             <span class="dropdown-menu__caption">تغيير كلمة المرور</span>
                                         </a>
-                                        <a href="#0" class="dropdown-menu__item d-flex align-items-center ps-3 pe-3 pt-2 pb-2">
+                                        <a href="#0"
+                                            class="dropdown-menu__item d-flex align-items-center ps-3 pe-3 pt-2 pb-2">
                                             <i class="dropdown-menu__icon las la-sign-out-alt"></i>
                                             <span class="dropdown-menu__caption">تسجيل الخروج</span>
                                         </a>
@@ -158,9 +188,33 @@
                     <div class="table-content">
                         <div class="row">
                             <div class="header-title">
-
                                 <div class="row g-4">
-                                    <div class="col-xl-4 col-lg-4 col-md-4">
+                                    <div class="col-xl-3 col-lg-3 col-md-4">
+                                        <div class="dashbord-user dCard-1">
+                                            <div class="dashboard-content">
+                                                <div class="d-flex justify-content-between">
+                                                    <div class="">
+                                                        <div class="top-content">
+                                                            <h3>التبرعات</h3>
+                                                        </div>
+                                                        <div class="user-count">
+                                                            <span class="text-uppercase"> 1000 ر.س</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="icon">
+                                                        <i class="fa-duotone fa-hand-holding-dollar"></i>
+                                                    </div>
+                                                </div>
+                                                <div class="mt-3">
+                                                    <a href="dashboard-ngo-donate-list.html" class="icon-bottom">
+                                                        <p class="text-center">عرض</p>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-xl-3 col-lg-3 col-md-4">
                                         <div class="dashbord-user dCard-1">
                                             <div class="dashboard-content">
                                                 <div class="d-flex justify-content-between">
@@ -169,39 +223,15 @@
                                                             <h3>طلبات إكرام الميت</h3>
                                                         </div>
                                                         <div class="user-count">
-                                                            <span class="text-uppercase">3</span>
+                                                            <span class="text-uppercase"> 205</span>
                                                         </div>
                                                     </div>
                                                     <div class="icon">
-                                                        <i class="fa-duotone fa-bed"></i>
+                                                        <i class="fa-duotone fa-rectangle-list"></i>
                                                     </div>
                                                 </div>
                                                 <div class="mt-3">
-                                                    <a href="dashboard-user-ikram-request-list.html" class="icon-bottom">
-                                                        <p class="text-center">عرض</p>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-xl-4 col-lg-4 col-md-4">
-                                        <div class="dashbord-user dCard-1">
-                                            <div class="dashboard-content">
-                                                <div class="d-flex justify-content-between">
-                                                    <div class="">
-                                                        <div class="top-content">
-                                                            <h3>إجمالي تبرعاتي</h3>
-                                                        </div>
-                                                        <div class="user-count">
-                                                            <span class="text-uppercase">1,500 ر.س</span>
-                                                        </div>
-                                                    </div>
-                                                    <div class="icon">
-                                                        <i class="fa-duotone fa-hand-holding-dollar"></i>
-                                                    </div>
-                                                </div>
-                                                <div class="mt-3 text-end">
-                                                    <a href="dashboard-user-donate-list.html" class="icon-bottom">
+                                                    <a href="dashboard-ngo-ikram-request-list.html" class="icon-bottom">
                                                         <p class="text-center">عرض</p>
                                                     </a>
                                                 </div>
@@ -209,82 +239,134 @@
                                         </div>
                                     </div>
 
-                                    <div class="col-xl-4 col-lg-4 col-md-4">
+                                    <div class="col-xl-3 col-lg-3 col-md-4">
                                         <div class="dashbord-user dCard-1">
                                             <div class="dashboard-content">
                                                 <div class="d-flex justify-content-between">
                                                     <div class="">
                                                         <div class="top-content">
-                                                            <h3>الدورات التدريبية</h3>
+                                                            <h3>المشاريع</h3>
                                                         </div>
                                                         <div class="user-count">
-                                                            <span class="text-uppercase">20</span>
+                                                            <span class="text-uppercase"> 18</span>
                                                         </div>
                                                     </div>
                                                     <div class="icon">
-                                                        <i class="fa-duotone fa-books"></i>
+                                                        <i class="fa-duotone fa-diagram-project"></i>
                                                     </div>
                                                 </div>
                                                 <div class="mt-3">
-                                                    <a href="dashboard-user-courses-list.html" class="icon-bottom">
+                                                    <a href="dashboard-ngo-projects-list.html" class="icon-bottom">
                                                         <p class="text-center">عرض</p>
                                                     </a>
                                                 </div>
                                             </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-xl-3 col-lg-3 col-md-4">
+                                        <div class="dashbord-user dCard-1">
+                                            <div class="dashboard-content">
+                                                <div class="d-flex justify-content-between">
+                                                    <div class="">
+                                                        <div class="top-content">
+                                                            <h3>الدورات</h3>
+                                                        </div>
+                                                        <div class="user-count">
+                                                            <span class="text-uppercase">25</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="icon">
+                                                        <i class="las la-times-circle"></i>
+                                                    </div>
+                                                </div>
+                                                <div class="mt-3">
+                                                    <a href="dashboard-ngo-courses-list.html" class="icon-bottom">
+                                                        <p class="text-center">عرض</p>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <!-- Card / Chart  -->
+                            <div class="col-12">
+                            <div class="row">
+                                <div class="col-lg-8 col-md-12 col-12">
+                                    <div class="chart">
+                                        <div class="chart-bg">
+                                            <div id="chart"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-12 col-12 pe-lg-1 pe-md-1 pe-0">
+                                    <div class="chart">
+                                        <div class="chart-bg">
+                                            <div id="chart2"></div>
+                                            <h3 class="text-center mt-4">حالة الطلبات</h3>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <!-- table -->
-                            <div class="table-area pt-20 pb-30">
-                                <div class="dash-section-title">
-                                    <h4>التبرعات الحديثة</h4>
-                                </div>
-                                <div class="row justify-content-center">
-                                    <div class="col-xl-12">
-                                        <div class="table-area">
-                                            <table class="custom-table">
-                                                <thead>
-                                                    <tr>
-                                                        <th>الرقم المرجعي</th>
-                                                        <th>الجهة</th>
-                                                        <th>قيمة التبرع</th>
-                                                        <th>حالة التبرع</th>
-                                                        <th>تاريخ التبرع</th>
-                                                    </tr>
-                                                </thead>
-                                                <tbody>
-                                                    <tr>
-                                                        <td data-label="الرقم المرجعي">GTSFG33S46G6E</td>
-                                                        <td data-label="المستفيد">مغسلة الدريهيمة</td>
-                                                        <td data-label="المبلغ">10 ر.س</td>
-                                                        <td data-label="الحالة"><span class="status--btn status--btn-2">مقبولة</span>
-                                                        </td>
-                                                        <td data-label="التاريخ"><i class="fas fa-calendar me-2"></i>08-10-2022 / 08:59 AM
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td data-label="الرقم المرجعي">GTSFG33S46G6E</td>
-                                                        <td data-label="المستفيد">مغسلة أم الحمام</td>
-                                                        <td data-label="المبلغ">50 ر.س</td>
-                                                        <td data-label="الحالة"><span class="status--btn ">مرفوضة</span>
-                                                        </td>
-                                                        <td data-label="التاريخ"><i class="fas fa-calendar me-2"></i>08-10-2022 / 08:59 AM
-                                                        </td>
-                                                    </tr>
+                        </div>
+                        </div>
+                    </div>
+                    <!-- table -->
+                    <div class="table-area pt-20 pb-30">
+                        <div class="dash-section-title">
+                            <h4>التبرعات الحديثة</h4>
+                        </div>
+                        <div class="row justify-content-center">
+                            <div class="col-xl-12">
+                                <div class="table-area">
+                                    <table class="custom-table">
+                                        <thead>
+                                            <tr>
+                                                <th>الرقم المرجعي</th>
+                                                <th>الجهة</th>
+                                                <th>قيمة التبرع</th>
+                                                <th>حالة التبرع</th>
+                                                <th>تاريخ التبرع</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td data-label="Trx ID">GTSFG33S46G6E</td>
+                                                <td data-label="Details">مغسلة الدريهيمة</td>
+                                                <td data-label="Amount">10 ر.س</td>
+                                                <td data-label="Status"><span
+                                                        class="status--btn status--btn-2">مقبولة</span>
+                                                </td>
+                                                <td data-label="Date"><i class="fas fa-calendar me-2"></i>08-10-2022 /
+                                                    08:59 AM
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td data-label="Trx ID">GTSFG33S46G6E</td>
+                                                <td data-label="Details">مغسلة أم الحمام</td>
+                                                <td data-label="Amount">50 ر.س</td>
+                                                <td data-label="Status"><span class="status--btn ">مرفوضة</span>
+                                                </td>
+                                                <td data-label="Date"><i class="fas fa-calendar me-2"></i>08-10-2022 /
+                                                    08:59 AM
+                                                </td>
+                                            </tr>
 
-                                                </tbody>
-                                            </table>
-                                        </div>
-
-                                    </div>
+                                        </tbody>
+                                    </table>
                                 </div>
+
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
+    </div>
     </div>
     <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
         End Page-wrapper
@@ -371,8 +453,8 @@
             },
             dataLabels: {
                 enabled: true,
-                formatter: function(val) {
-                    return val + "$";
+                formatter: function (val) {
+                    return val + " طلب";
                 },
                 offsetY: -20,
                 style: {
@@ -382,7 +464,7 @@
             },
 
             xaxis: {
-                categories: ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
+                categories: ["يناير", "فبراير", "مارس", "أبريل", "مايو", "يونيو", "يوليو", "أغسطس", "سيبتمبر", "أكتوبر", "نوفمبر", "ديسمبر"],
                 position: 'top',
                 axisBorder: {
                     show: false
@@ -415,14 +497,14 @@
                 },
                 labels: {
                     show: false,
-                    formatter: function(val) {
+                    formatter: function (val) {
                         return val + "$";
                     }
                 }
 
             },
             title: {
-                text: 'Transaction Overview',
+                text: 'الطلبات',
                 floating: true,
                 offsetY: 330,
                 align: 'center',
@@ -440,10 +522,10 @@
         var options = {
             series: [42, 47, 52],
             chart: {
-                width: 380,
+                width: 350,
                 type: 'polarArea'
             },
-            labels: ['Completed', 'Ongoing', 'Canceled'],
+            labels: ['مكتمل', 'معلق', 'جار العمل'],
             fill: {
                 opacity: 1
             },

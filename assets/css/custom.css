@@ -96,8 +96,8 @@ td,
 
 .services .card,
 .services .card h5 {
-    background-color: #2f556a;
-    color: #fff
+    background-color: #fff;
+    color: #2e556a
 }
 
 .services .card h5 {
@@ -299,8 +299,15 @@ td,
 .join .sec-bg {
     background-color: #2e556a;
     padding: 50px 30px 50px 30px;
-    border-radius: 10px;
+    border-radius: 0px;
+    position: relative;
+
 }
+#features {
+    scroll-margin-top: 200px;
+}
+
+
 
 .projects {
     overflow: hidden;
@@ -787,4 +794,19 @@ td,
     color: #17a2b8;
     -webkit-transform: scale(1.02) perspective(1000px);
     transform: scale(1.02) perspective(1000px);
+}
+
+
+.table-content .chart .chart-bg h3 ,.apexcharts-title-text{
+    font-size: 16px;
+    color: #444444 !important;
+    font-family: Almarai !important;
+}
+
+.table-content .chart .chart-bg {
+    background-color: #f6f8fe;
+    padding: 10px;
+    border-radius: 10px;
+    width: auto;
+    height: 27rem;
 }

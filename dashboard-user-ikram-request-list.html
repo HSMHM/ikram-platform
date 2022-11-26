@@ -8,7 +8,7 @@
     <title>منصة إكرام</title>
     <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;0,500;0,600;0,700;1,600&display=swap" rel="stylesheet">
     <!-- fontawesome css link -->
-    <link rel="stylesheet" href="assets/css/fontawesome-all.min.css">
+    <script src="https://kit.fontawesome.com/2197123105.js" crossorigin="anonymous"></script>
     <!-- bootstrap css link -->
     <link rel="stylesheet" href="assets/css/bootstrap.min-rtl.css">
     <!-- favicon -->
@@ -52,35 +52,41 @@
                             <img src="assets/images/logo/ikram-logo-250.png" alt="logo">
                         </a>
                         <div class="navbar__left">
-                            <button class="sidebar-mobile-menu text-white">
+                            <button class="sidebar-mobile-menu text-dark">
                                 <i class="las fa-bars"></i>
                             </button>
                         </div>
                     </div>
                     <div class="sidebar__menu-wrapper">
                         <ul class="sidebar__menu p-0">
-                            <li class="sidebar-menu-item">
+                            <li class="sidebar-menu-item ">
                                 <a href="dashboard-user.html">
-                                    <i class="menu-icon las la-home"></i>
+                                    <i class="menu-icon fa-duotone fa-house"></i>
                                     <span class="menu-title">لوحة المعلومات</span>
                                 </a>
                             </li>
                             <li class="sidebar-menu-item active">
                                 <a href="dashboard-user-ikram-request-list.html">
-                                    <i class="menu-icon las la-handshake"></i>
+                                    <i class="menu-icon fa-duotone fa-memo-pad"></i>
                                     <span class="menu-title">طلباتي</span>
                                 </a>
                             </li>
                             <li class="sidebar-menu-item ">
                                 <a href="dashboard-user-courses-list.html">
-                                    <i class="menu-icon las las la-coins"></i>
+                                    <i class="menu-icon fa-duotone fa-books"></i>
                                     <span class="menu-title">دوراتي</span>
                                 </a>
                             </li>
                             <li class="sidebar-menu-item ">
                                 <a href="dashboard-user-donate-list.html">
-                                    <i class="menu-icon las la-hand-holding-usd"></i>
+                                    <i class="menu-icon fa-duotone fa-hand-holding-heart"></i>
                                     <span class="menu-title">تبرعاتي</span>
+                                </a>
+                            </li>
+                            <li class="sidebar-menu-item">
+                                <a href="dashboard-user-volunteering-list.html">
+                                    <i class="menu-icon fa-duotone fa-handshake"></i>
+                                    <span class="menu-title">أعمالي التطوعية</span>
                                 </a>
                             </li>
                         </ul>
@@ -90,7 +96,7 @@
                     <div class="social-area">
                         <ul class="copyright-social p-0">
                             <li><a href="#0"><i class="lab la-facebook-f"></i></a></li>
-                            <li class="active"><a href="#0" class="active"><i class="lab la-twitter"></i></a></li>
+                            <li><a href="#0"><i class="lab la-twitter"></i></a></li>
                             <li><a href="#0"><i class="lab la-instagram"></i></a></li>
                             <li><a href="#0"><i class="lab la-linkedin-in"></i></a></li>
                         </ul>
@@ -160,7 +166,7 @@
                                             <h4>طلباتي</h4>
                                         </div>
                                         <div>
-                                            <a href="dashboard-new-ikram-request.html" class="btn--base">طلب جديد</a>
+                                            <a href="dashboard-new-ikram-request.html" class="btn--base">تقديم طلب جديد</a>
                                         </div>
                                     </div>
                                     <div class="row justify-content-center">
@@ -249,25 +255,25 @@
         Start Bottom-nav
     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
     <div class="bottom-nav">
-        <a href="dashboard-transaction.html">
+        <a href="#">
             <i class="las la-recycle"></i>
-            <p>Transactions</p>
+            <p>الطلبات</p>
         </a>
-        <a href="dashboard-escroc-list.html">
+        <a href="#">
             <i class="las la-handshake"></i>
-            <p>My EscroW</p>
+            <p>التبرعات</p>
         </a>
-        <a href="dashboard.html" class="mid">
+        <a href="#" class="mid">
             <i class="las la-home"></i>
-            <p>Dashboard</p>
+            <p>لوحة المعلومات</p>
         </a>
-        <a href="dashboard-support.html">
+        <a href="#">
             <i class="las llas la-question-circle"></i>
-            <p>Support</p>
+            <p>التطوع</p>
         </a>
-        <a href="user-profile.html">
+        <a href="#">
             <i class="las la-user"></i>
-            <p>Account</p>
+            <p>حسابي</p>
         </a>
     </div>
     <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
