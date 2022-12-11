@@ -24,6 +24,32 @@ td,
     font-family: Almarai !important;
     letter-spacing: 0em !important;
 }
+.sidebar {
+    background: #223036;
+
+}
+.sidebar__menu-wrapper .sidebar__menu .sidebar-menu-item a .menu-title {
+    color: #ffffff;
+
+}
+.sidebar__menu-wrapper .sidebar__menu .sidebar-menu-item.active a .menu-title {
+    color: #ffffff;
+}
+
+.sidebar__menu-wrapper .sidebar__menu .sidebar-menu-item.active a {
+    background-color: rgb(23 162 184 / 47%);
+
+}
+
+.sidebar__menu-wrapper .sidebar__menu .sidebar-menu-item a .menu-icon {
+
+    color: #17a5b0;
+
+}
+
+.sidebar__menu-wrapper .sidebar__menu .sidebar-menu-item.active a .menu-icon {
+    color: #ffffff;
+}
 
 .custom-table .status--btn {
     letter-spacing: 0;
