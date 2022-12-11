@@ -59,13 +59,13 @@
                     </div>
                     <div class="sidebar__menu-wrapper">
                         <ul class="sidebar__menu p-0">
-                            <li class="sidebar-menu-item active">
+                            <li class="sidebar-menu-item ">
                                 <a href="dashboard-ngo.html">
                                     <i class="menu-icon fa-duotone fa-house"></i>
                                     <span class="menu-title">لوحة المعلومات</span>
                                 </a>
                             </li>
-                            <li class="sidebar-menu-item ">
+                            <li class="sidebar-menu-item active">
                                 <a href="dashboard-ngo-ikram-request-list.html">
                                     <i class="menu-icon fa-duotone fa-memo-pad"></i>
                                     <span class="menu-title">طلبات إكرام ميت</span>
@@ -78,15 +78,15 @@
                                 </a>
                             </li>
                             <li class="sidebar-menu-item ">
-                                <a href="dashboard-ngo-projects-list.html">
+                                <a href="dashboard-ngo-cemeteries-list.html">
                                     <i class="menu-icon fa-duotone fa-diagram-project"></i>
-                                    <span class="menu-title">فرص التبرع</span>
+                                    <span class="menu-title">المقابر</span>
                                 </a>
                             </li>
                             <li class="sidebar-menu-item ">
                                 <a href="dashboard-ngo-courses-list.html">
                                     <i class="menu-icon fa-duotone fa-books"></i>
-                                    <span class="menu-title">الدورات التدريبية</span>
+                                    <span class="menu-title">تأهيل الكوادر</span>
                                 </a>
                             </li>
                             <li class="sidebar-menu-item ">
@@ -201,11 +201,11 @@
                                             <div class="row">
                                                 <div class="search px-0">
                                                     <i class="fa fa-search"></i>
-                                                    <input type="text" class="form-control" placeholder="اسم جمعية، متوفي، موظف، مدينة">
+                                                    <input type="text" class="form-control" placeholder="اسم مغسلة، مدينة">
                                                     <button class="btn--secondary text-dark">بحث</button>
                                                 </div>
                                                 <div class="filter">
-                                                    <a href="dashboard-new-ikram-request.html" class=" text-dark btn--base">فرز
+                                                    <a href="dashboard-new-ikram-request.html" class="btn--base-e btn--base">فرز
                                                         </a>
                                                 </div>
                                             </div>
@@ -214,7 +214,9 @@
 
 
                                         <div class="btns col-12 col-lg-6 text-end mt-5 mt-lg-0">
-                                            <a href="dashboard-new-ikram-request.html" class=" text-dark btn--base">تصدير
+                                            <a href="dashboard-ngo-new-ikram-request.html" class="btn--base btn--base1 btn--base-e">إضافة طلب
+                                                </a>
+                                                <a href="dashboard-new-ikram-request.html" class="btn--base-e btn--base">تصدير
                                                 </a>
                                         </div>
                                     </div>
@@ -248,7 +250,21 @@
                                                             </td>
                                                             <td data-label="تاريخ الطلب"><i class="fas fa-calendar me-2"></i>08-10-2022 / 08:59 AM
                                                             </td>
-                                                            <td data-label="إجراء"><i class="fs-3 fa-duotone fa-sliders"></i></td>
+                                                            <td data-label="إجراء">
+                                                                <div class="dropdown settings">
+                                                                    <button class="dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                                                        <i class="text-muted fs-5 bg-transparent fa-duotone fa-gear"></i>
+                                                                    </button>
+                                                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                                                        <li><a class="dropdown-item" href="#">تعديل</a></li>
+                                                                        <li><a class="dropdown-item" href="#">عرض</a></li>
+                                                                        <li>
+                                                                            <hr class="dropdown-divider">
+                                                                        </li>
+                                                                        <li><a class="dropdown-item text-danger" href="#">حذف</a></li>
+                                                                    </ul>
+                                                                </div>
+                                                            </td>
                                                         </tr>
                                                         <tr>
                                                             <td data-label="رقم الطلب">GTSFG33S46G6E</td>
@@ -262,7 +278,21 @@
                                                             </td>
                                                             <td data-label="تاريخ الطلب"><i class="fas fa-calendar me-2"></i>08-10-2022 / 08:59 AM
                                                             </td>
-                                                            <td data-label="إجراء"><i class="fs-3 fa-duotone fa-sliders"></i></td>
+                                                                                                                        <td data-label="إجراء">
+                                                                <div class="dropdown settings">
+                                                                    <button class="dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                                                        <i class="text-muted fs-5 bg-transparent fa-duotone fa-gear"></i>
+                                                                    </button>
+                                                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                                                        <li><a class="dropdown-item" href="#">تعديل</a></li>
+                                                                        <li><a class="dropdown-item" href="#">عرض</a></li>
+                                                                        <li>
+                                                                            <hr class="dropdown-divider">
+                                                                        </li>
+                                                                        <li><a class="dropdown-item text-danger" href="#">حذف</a></li>
+                                                                    </ul>
+                                                                </div>
+                                                            </td>
                                                         </tr>
                                                     </tbody>
                                                 </table>
