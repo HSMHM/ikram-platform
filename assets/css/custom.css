@@ -24,27 +24,25 @@ td,
     font-family: Almarai !important;
     letter-spacing: 0em !important;
 }
+
 .sidebar {
     background: #223036;
-
 }
+
 .sidebar__menu-wrapper .sidebar__menu .sidebar-menu-item a .menu-title {
     color: #ffffff;
-
 }
+
 .sidebar__menu-wrapper .sidebar__menu .sidebar-menu-item.active a .menu-title {
     color: #ffffff;
 }
 
 .sidebar__menu-wrapper .sidebar__menu .sidebar-menu-item.active a {
     background-color: rgb(23 162 184 / 47%);
-
 }
 
 .sidebar__menu-wrapper .sidebar__menu .sidebar-menu-item a .menu-icon {
-
     color: #17a5b0;
-
 }
 
 .sidebar__menu-wrapper .sidebar__menu .sidebar-menu-item.active a .menu-icon {
@@ -61,18 +59,19 @@ td,
     border-right: 0px;
     box-shadow: 0 0 14px 0px #cbcbcb;
 }
+
 .custom-table thead tr th:first-child {
     border-radius: 0 1px 1px 0;
     text-align: right;
 }
+
 .custom-table thead tr th:last-child {
     border-radius: 1px 0 0 1px;
     text-align: left;
 }
+
 .dashbord-user {
-
     border-radius: 3px;
-
 }
 
 .sidebar__menu-wrapper .sidebar__menu .sidebar-menu-item a .menu-title {
@@ -892,9 +891,9 @@ td,
     margin-top: 50px;
     background-color: #fff;
     position: relative;
-  }
-  
-  .chart-header {
+}
+
+.chart-header {
     background-color: #fff;
     height: 40px;
     color: #16140d;
@@ -904,30 +903,29 @@ td,
     border-top-right-radius: 7px;
     font-weight: 400;
     font-size: 1.5em;
-  }
-  
-  .chart-footer {
+}
+
+.chart-footer {
     color: #16140d;
     text-align: center;
     font-size: 10px;
-  }
-  
-  .chart-container {
+}
+
+.chart-container {
     padding: 25px;
-  }
-  
-  
-  .chart-text {
-     color: #16140d;
+}
+
+.chart-text {
+    color: #16140d;
     text-align: center;
     font-size: 10px;
     position: absolute;
     z-index: 3;
     right: 50%;
     top: 55%;
-  }
+}
 
-  .copyright-wrapper .copyright-area p {
+.copyright-wrapper .copyright-area p {
     font-size: 14px;
     color: #ffffff;
 }
@@ -989,8 +987,8 @@ td,
     box-shadow: 0 5px 10px rgba(30, 32, 37, 0.12);
 }
 
-.settings .dropdown-menu{
-    transform: translate3d(111px, 23px, 0px) !important;
+.settings .dropdown-menu {
+    transform: translate3d(0px, 23px, 0px) !important;
 }
 
 .settings .dropdown-menu a {
@@ -1012,6 +1010,16 @@ td,
     border-right: 0.3em solid transparent;
 }
 
-.dropdown-toggle{
+.dropdown-toggle {
     background-color: transparent;
+}
+
+.custom-table tbody tr:hover {
+    -webkit-transform: none;
+    transform: none;
+}
+
+.custom-table tbody tr:hover {
+    -webkit-transform: none;
+    transform: none;
 }
