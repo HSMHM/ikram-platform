@@ -77,7 +77,7 @@
                                     <span class="menu-title">التبرعات</span>
                                 </a>
                             </li>
-                            <li class="sidebar-menu-item ">
+                            <li class="sidebar-menu-item active">
                                 <a href="dashboard-ngo-cemeteries-list.html">
                                     <i class="menu-icon fa-duotone fa-diagram-project"></i>
                                     <span class="menu-title">المقابر</span>
@@ -89,13 +89,13 @@
                                     <span class="menu-title">تأهيل الكوادر</span>
                                 </a>
                             </li>
-                            <li class="sidebar-menu-item">
+                            <li class="sidebar-menu-item ">
                                 <a href="dashboard-ngo-staff-list.html">
                                     <i class="menu-icon fa-duotone fa-users"></i>
                                     <span class="menu-title">الموظفين</span>
                                 </a>
                             </li>
-                            <li class="sidebar-menu-item active">
+                            <li class="sidebar-menu-item ">
                                 <a href="dashboard-ngo-volunters-list.html">
                                     <i class="menu-icon fa-duotone fa-handshake"></i>
                                     <span class="menu-title">المتطوعين</span>
@@ -148,7 +148,7 @@
                                     <i class="las fa-bars"></i>
                                 </button>
                             </div>
-                            <h4 class="title">المتطوعين</h4>
+                            <h4 class="title">المقابر</h4>
                         </div>
                         <div class="navbar__right ">
                             <ul class="navbar__action-list" style="list-style: none;">
@@ -193,7 +193,7 @@
                                 <div class="table-area pt-20 pb-30">
                                     <div class="dash-section-title my-escrow d-flex justify-content-between">
                                         <div>
-                                            <h4>قائمة المتطوعين</h4>
+                                            <h4>قائمة المقابر</h4>
                                         </div>
                                     </div>
                                     <div class="mt-4 d-flex flex-column flex-lg-row justify-content-between">
@@ -201,24 +201,18 @@
                                             <div class="row">
                                                 <div class="search px-0">
                                                     <i class="fa fa-search"></i>
-                                                    <input type="text" class="form-control" placeholder="اسم المتطوع، الوظيفة">
+                                                    <input type="text" class="form-control" placeholder="اسم المتبرع">
                                                     <button class="btn--secondary text-dark">بحث</button>
                                                 </div>
                                                 <div class="filter">
-                                                    <a href="#" class="btn--base-e btn--base">فرز
+                                                    <a href="dashboard-new-ikram-request.html" class="btn--base-e btn--base">فرز
                                                         </a>
                                                 </div>
                                             </div>
 
                                         </div>
-
-
                                         <div class="btns col-12 col-lg-6 text-end mt-5 mt-lg-0">
-                                            <a href="dashboard-ngo-new-staff.html" class="btn--base btn--base1 btn--base-e">إضافة متطوع
-                                                </a>
-                                                <a href="#" class="btn--base btn--base-e btn--base2">الصلاحيات
-                                                </a>
-                                                <a href="#" class="btn--base btn--base-e btn--base3">الوظائف
+                                            <a href="#" class="btn--base btn--base1 btn--base-e">إضافة مقبرة
                                                 </a>
                                                 <a href="#" class="btn--base-e btn--base">تصدير
                                                 </a>
@@ -230,24 +224,17 @@
                                                 <table class="custom-table">
                                                     <thead>
                                                         <tr>
-                                                            <th>الاسم</th>
-                                                            <th>القسم</th>
-                                                            <th>الوظيفة</th>
-                                                            <th>رقم الجوال</th>
-                                                            <th>فترة العمل</th>
+                                                            <th>رقم المقبرة</th>
+                                                            <th>اسم المقبرة</th>
                                                             <th>الحالة</th>
                                                             <th>إجراء</th>
-
                                                         </tr>
                                                     </thead>
                                                     <tbody>
                                                         <tr>
-                                                            <td data-label="الاسم">أيمن علي</td>
-                                                            <td data-label="القسم">رجال</td>
-                                                            <td data-label="الوظيفة">سائق</td>
-                                                            <td data-label="رقم الجوال">055212546</td>
-                                                            <td data-label="فترة العمل">08-12</td>
-                                                            <td data-label="الحالة"><span class="status--btn status--btn-2">منتظم</span>
+                                                            <td data-label="رقم المقبرة">454548541524</td>
+                                                            <td data-label="اسم المقبرة">مقبرة النسيم</td>
+                                                            <td data-label="الحالة"><span class="status--btn status--btn-2">متاحة</span>
                                                             </td>
                                                             <td data-label="إجراء">
                                                                 <div class="dropdown settings">
@@ -257,7 +244,6 @@
                                                                     <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
                                                                         <li><a class="dropdown-item" href="#">تعديل</a></li>
                                                                         <li><a class="dropdown-item" href="#">عرض</a></li>
-                                                                        <li><a class="dropdown-item" href="#">اصدار شهادة</a></li>
                                                                         <li>
                                                                             <hr class="dropdown-divider">
                                                                         </li>
@@ -267,12 +253,9 @@
                                                             </td>
                                                         </tr>
                                                         <tr>
-                                                            <td data-label="الاسم">نهى بدر</td>
-                                                            <td data-label="القسم">نساء</td>
-                                                            <td data-label="الوظيفة">مغسل</td>
-                                                            <td data-label="رقم الجوال">055212546</td>
-                                                            <td data-label="فترة العمل">12-04</td>
-                                                            <td data-label="الحالة"><span class="status--btn ">موقوف</span>
+                                                            <td data-label="رقم المقبرة">2116354156</td>
+                                                            <td data-label="اسم المقبرة">مقبرة الشمال</td>
+                                                            <td data-label="الحالة"><span class="status--btn">غير متاحة</span>
                                                             </td>
                                                             <td data-label="إجراء">
                                                                 <div class="dropdown settings">
@@ -282,7 +265,6 @@
                                                                     <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
                                                                         <li><a class="dropdown-item" href="#">تعديل</a></li>
                                                                         <li><a class="dropdown-item" href="#">عرض</a></li>
-                                                                        <li><a class="dropdown-item" href="#">اصدار شهادة</a></li>
                                                                         <li>
                                                                             <hr class="dropdown-divider">
                                                                         </li>
@@ -317,12 +299,10 @@
                                                         <path stroke-linecap="round" stroke-linejoin="round"
                                                             d="M15 19l-7-7 7-7" />
                                                     </svg>
-
                                                 </button>
                                             </div>
                                         </div>
                                     </div>
-
                                 </div>
                             </div>
                         </div>

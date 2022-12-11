@@ -1721,8 +1721,8 @@ input::-moz-focus-inner {
 .btn--base {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-    background-color: #17a2b8;
-    border: 2px solid #17a2b8;
+    background-color: #17a2b8 !important;
+    border: 2px solid #17a2b8 !important;
     border-radius: 5px;
     color: #ffffff;
     font-weight: 600;
@@ -1739,13 +1739,13 @@ input::-moz-focus-inner {
 
 .btn--base:hover {
     color: #ffffff;
-    background-color: transparent;
+    background-color: transparent !important;
     -webkit-transition: 0.5s;
     transition: 0.5s;
 }
 
 .btn--base-e:hover {
-    color: #464948;
+    color: #464948 !important;
 }
 
 
