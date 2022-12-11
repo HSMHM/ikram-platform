@@ -327,13 +327,11 @@ td,
     padding: 50px 30px 50px 30px;
     border-radius: 0px;
     position: relative;
-
 }
+
 #features {
     scroll-margin-top: 200px;
 }
-
-
 
 .projects {
     overflow: hidden;
@@ -822,8 +820,8 @@ td,
     transform: scale(1.02) perspective(1000px);
 }
 
-
-.table-content .chart .chart-bg h3 ,.apexcharts-title-text{
+.table-content .chart .chart-bg h3,
+.apexcharts-title-text {
     font-size: 16px;
     color: #444444 !important;
     font-family: Almarai !important;
@@ -835,4 +833,42 @@ td,
     border-radius: 10px;
     width: auto;
     height: 27rem;
+}
+
+.search {
+    position: relative;
+    box-shadow: 0 0 40px rgba(51, 51, 51, .1);
+    width: 70%;
+}
+
+.search input {
+    height: 50px;
+    text-indent: 25px;
+    border: 2px solid #d6d4d4;
+}
+
+.search input:focus {
+    box-shadow: none;
+    border: 2px solid #17a2b8;
+}
+
+.search .fa-search {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.search button {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    height: 40px;
+    width: 113px;
+    background: #bdbdbd;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.filter {
+    width: 30%;
 }
