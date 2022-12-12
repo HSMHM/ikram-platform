@@ -519,7 +519,7 @@ td,
 
 .ikram-request {
     height: auto;
-    padding: 100px 0px;
+    padding: 0px 0px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;

@@ -71,12 +71,7 @@
                                     <span class="menu-title">طلبات إكرام ميت</span>
                                 </a>
                             </li>
-                            <li class="sidebar-menu-item ">
-                                <a href="dashboard-ngo-donate-list.html">
-                                    <i class="menu-icon fa-duotone fa-hand-holding-heart"></i>
-                                    <span class="menu-title">التبرعات</span>
-                                </a>
-                            </li>
+
                             <li class="sidebar-menu-item ">
                                 <a href="dashboard-ngo-projects-list.html">
                                     <i class="menu-icon fa-duotone fa-diagram-project"></i>
@@ -107,12 +102,7 @@
                                     <span class="menu-title">المخزون</span>
                                 </a>
                             </li>
-                            <li class="sidebar-menu-item ">
-                                <a href="dashboard-ngo-bank-setting.html">
-                                    <i class="menu-icon fa-duotone fa-money-check-dollar"></i>
-                                    <span class="menu-title">الحسابات البنكية</span>
-                                </a>
-                            </li>
+
                             <li class="sidebar-menu-item ">
                                 <a href="dashboard-ngo-org-setting.html">
                                     <i class="menu-icon fa-duotone fa-gears"></i>
@@ -190,7 +180,7 @@
                                 <div class="card-1 mb-30">
                                     <section class="ikram-request">
                                         <div class="container mx-auto">
-                                            <div class="form">
+                                            <div class="form p-0">
                                                 <div class="step-1" id="checkout-progress" data-current-step="1">
                                                     <div class="progress-bar-steps">
                                                         <div class="step step-1 active"><span> 1</span>
@@ -203,11 +193,11 @@
                                                         </div>
                                                         <div class="step step-3"><span> 3</span>
                                                             <div class="fa fa-check opaque"></div>
-                                                            <div class="step-label">المقبرة</div>
+                                                            <div class="step-label">المستندات</div>
                                                         </div>
                                                         <div class="step step-4"><span> 4</span>
                                                             <div class="fa fa-check opaque"></div>
-                                                            <div class="step-label">المستندات</div>
+                                                            <div class="step-label">مقدم الطلب</div>
                                                         </div>
                                                         <div class="step step-5"><span> 5</span>
                                                             <div class="fa fa-check opaque"></div>
@@ -220,22 +210,32 @@
                                                     <div class="banner-form">
                                                         <form class="row g-4">
                                                             <div class="col-12 col-sm-6 mb-3">
-                                                                <label for="name" class="form-label">اسم المتوفي/ة
+                                                                <label for="" class="form-label">اسم المتوفي
                                                                     الأول</label>
-                                                                <input type="text" class="form-control" id="name" aria-describedby="name" />
+                                                                <input type="text" class="form-control" id="" aria-describedby="" />
                                                             </div>
                                                             <div class="col-12 col-sm-6 mb-3">
-                                                                <label for="name" class="form-label">اسم المتوفي/ة
+                                                                <label for="" class="form-label">اسم المتوفي
                                                                     الأخير</label>
-                                                                <input type="text" class="form-control" id="name" aria-describedby="name" />
+                                                                <input type="text" class="form-control" id="" aria-describedby="" />
                                                             </div>
-                                                            <div class="col-12 col-sm-8 mb-2">
+                                                            <div class="col-12 col-sm-6 mb-2">
+                                                                <h3 class="fs-6 p-0">الجنس</h3>
+                                                                <div class="">
+                                                                    <select class="form-control select-item-2 py-0 w-100">
+                                                                        <option value="1">ذكر</option>
+                                                                        <option value="2">أنثى</option>
+
+                                                                    </select>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-12 col-sm-6 mb-2">
                                                                 <div class="row">
                                                                     <h3 class="fs-6">رقم الهوية الوطنية / هوية مقيم / هوية زائر</h3>
-                                                                    <div class="col-7 col-sm-9 pe-0">
+                                                                    <div class="col-6 col-sm-6 pe-0">
                                                                         <input type="text" class="form-control select-input" id="input1" placeholder="" />
                                                                     </div>
-                                                                    <div class="col-5 col-sm-3 ps-0">
+                                                                    <div class="col-6 col-sm-6 ps-0">
                                                                         <select class="form-control select-item py-0 w-100">
                                                                             <option value="1">هوية وطنية</option>
                                                                             <option value="2">هوية مقيم</option>
@@ -244,55 +244,28 @@
                                                                     </div>
                                                                 </div>
                                                             </div>
-                                                            <div class="col-12 col-sm-4 mb-2">
-                                                                <h3 class="fs-6 p-0">علاقة المتوفي/ة بمقدم الطلب</h3>
-                                                                <div class="">
+                                                            <div class="col-12 col-sm-6 mb-2">
+                                                                <h3 class="fs-6 p-0">الفئة العمرية</h3>
+                                                                <div>
                                                                     <select class="form-control select-item-2 py-0 w-100">
-                                                                        <option value="1">أب</option>
-                                                                        <option value="2">أم</option>
-                                                                        <option value="2">أخ</option>
-                                                                        <option value="2">أخت</option>
-                                                                        <option value="2">عم</option>
-                                                                        <option value="2">خال</option>
-                                                                        <option value="2">صديق</option>
+                                                                        <option value="1">كبار سن</option>
+                                                                        <option value="2">شباب</option>
+                                                                        <option value="3">مواليد</option>
                                                                     </select>
                                                                 </div>
                                                             </div>
-                                                            <div class="col-12 col-sm-6 mb-3">
-                                                                <h3 class="fs-6 p-0">تاريخ الميلاد</h3>
-                                                                <input type="date" class="form-control" id="name" aria-describedby="name" />
+                                                            <div class="col-12 col-sm-6 mb-2">
+                                                                <h3 class="fs-6 p-0">سبب الوفاة</h3>
+                                                                <div>
+                                                                    <select class="form-control select-item-2 py-0 w-100">
+                                                                        <option value="1">جنائية</option>
+                                                                        <option value="2">طبيعية</option>
+                                                                    </select>
+                                                                </div>
                                                             </div>
                                                             <div class="col-12 col-sm-6 mb-3">
                                                                 <h3 class="fs-6 p-0">تاريخ و وقت الوفاة</h3>
-                                                                <input type="datetime-local" class="form-control" id="name" aria-describedby="name" />
-                                                            </div>
-                                                            <div class="col-12 col-sm-6 mb-2">
-                                                                <h3 class="fs-6 p-0">المنطقة</h3>
-                                                                <div>
-                                                                    <select class="form-control select-item-2 py-0 w-100">
-                                                                        <option value="1">الرياض</option>
-                                                                        <option value="2">القصيم</option>
-                                                                        <option value="3">مكة المكرمة</option>
-                                                                    </select>
-                                                                </div>
-                                                            </div>
-                                                            <div class="col-12 col-sm-6 mb-2">
-                                                                <h3 class="fs-6 p-0">المدينة</h3>
-                                                                <div>
-                                                                    <select class="form-control select-item-2 py-0 w-100">
-                                                                        <option value="1">الرياض</option>
-                                                                        <option value="2">القصيم</option>
-                                                                        <option value="3">مكة المكرمة</option>
-                                                                    </select>
-                                                                </div>
-                                                            </div>
-                                                            <div class="col-12 col-sm-6 mb-3">
-                                                                <h3 class="fs-6 p-0">رقم جوال مقدم الطلب</h3>
-                                                                <input type="text" class="form-control" id="name" aria-describedby="name" />
-                                                            </div>
-                                                            <div class="col-12 col-sm-6 mb-3">
-                                                                <h3 class="fs-6 p-0">رقم جوال إضافي</h3>
-                                                                <input type="text" class="form-control" id="name" aria-describedby="name" />
+                                                                <input type="datetime-local" class="form-control" id="" aria-describedby="" />
                                                             </div>
 
                                                         </form>
@@ -337,11 +310,11 @@
                                                             <div class="col-12 col-sm-6 mb-2">
                                                                 <h3 class="fs-6 p-0">تاريخ الصلاة على الجنازة</h3>
                                                                 <div>
-                                                                    <input type="date" class="form-control" id="name" aria-describedby="name" />
+                                                                    <input type="date" class="form-control" id="" aria-describedby="" />
                                                                 </div>
                                                             </div>
                                                             <div class="col-12 col-sm-6 mb-2">
-                                                                <h3 class="fs-6 p-0">الصلاة</h3>
+                                                                <h3 class="fs-6 p-0">الفرض</h3>
                                                                 <div>
                                                                     <select class="form-control select-item-2 py-0 w-100">
                                                                         <option value="1">صلاة الفجر</option>
@@ -350,33 +323,43 @@
                                                                     </select>
                                                                 </div>
                                                             </div>
-                                                        </form>
-                                                    </div>
-                                                </div>
-                                                <div id="stepArea3" class="stepArea3" style="display:none;">
-                                                    <div class="banner-form">
-                                                        <form class="row g-4">
                                                             <div class="col-12 col-sm-6 mb-2">
+                                                                <h3 class="fs-6 p-0">الدفن في نفس المدينة ؟</h3>
+                                                                <div class="form-check form-switch fs-3">
+                                                                    <input class="form-check-input fs-3" type="checkbox" id="flexSwitchCheckChecked" checked="checked">
+                                                                </div>
+                                                            </div>
+                                                            <div class="toggle_select1 col-12 col-sm-6 mb-2">
+                                                                <h3 class="fs-6 p-0">تحديد المقبرة</h3>
+                                                                <div>
+                                                                    <select class="form-control select-item-2 py-0 w-100">
+                                                                        <option value="1">مقبرة 1</option>
+                                                                        <option value="2">مقبرة 2</option>
+                                                                        <option value="3">مقبرة 3</option>
+                                                                    </select>
+                                                                </div>
+                                                            </div>
+                                                            <div class="toggle_select2 col-12 col-sm-6 mb-2">
                                                                 <h3 class="fs-6 p-0">المنطقة</h3>
                                                                 <div>
                                                                     <select class="form-control select-item-2 py-0 w-100">
                                                                         <option value="1">الرياض</option>
-                                                                        <option value="2">القصيم</option>
-                                                                        <option value="3">مكة المكرمة</option>
+                                                                        <option value="2">مكة المكرمة</option>
+                                                                        <option value="3">المدينة المنورة</option>
                                                                     </select>
                                                                 </div>
                                                             </div>
-                                                            <div class="col-12 col-sm-6 mb-2">
+                                                            <div class="toggle_select2 col-12 col-sm-6 mb-2">
                                                                 <h3 class="fs-6 p-0">المدينة</h3>
                                                                 <div>
                                                                     <select class="form-control select-item-2 py-0 w-100">
                                                                         <option value="1">الرياض</option>
-                                                                        <option value="2">القصيم</option>
-                                                                        <option value="3">مكة المكرمة</option>
+                                                                        <option value="2">مكة المكرمة</option>
+                                                                        <option value="3">المدينة المنورة</option>
                                                                     </select>
                                                                 </div>
                                                             </div>
-                                                            <div class="col-12 col-sm-6 mb-2">
+                                                            <div class="toggle_select2 col-12 col-sm-6 mb-2">
                                                                 <h3 class="fs-6 p-0">تحديد المقبرة</h3>
                                                                 <div>
                                                                     <select class="form-control select-item-2 py-0 w-100">
@@ -389,7 +372,7 @@
                                                         </form>
                                                     </div>
                                                 </div>
-                                                <div id="stepArea4" class="stepArea4" style="display:none;">
+                                                <div id="stepArea3" class="stepArea3" style="display:none;">
                                                     <div class="banner-form">
                                                         <form class="row g-4">
                                                             <div class="col-12 col-sm-6 mb-2">
@@ -403,6 +386,47 @@
                                                                 <div>
                                                                     <input type="file" name="" id="" class="control-form">
                                                                 </div>
+                                                            </div>
+                                                        </form>
+                                                    </div>
+                                                </div>
+                                                <div id="stepArea4" class="stepArea4" style="display:none;">
+                                                    <div class="banner-form">
+                                                        <form class="row g-4">
+                                                            <div class="col-12 col-sm-6 mb-3">
+                                                                <h3 class="fs-6 p-0">اسم مقدم الطلب الأول</h3>
+                                                                <input type="text" class="form-control" id="" aria-describedby="" />
+                                                            </div>
+                                                            <div class="col-12 col-sm-6 mb-3">
+                                                                <h3 class="fs-6 p-0">اسم مقدم الطلب الأخير</h3>
+                                                                <input type="text" class="form-control" id="" aria-describedby="" />
+                                                            </div>
+                                                            <div class="col-12 col-sm-6 mb-2">
+                                                                <h3 class="fs-6 p-0">علاقة المتوفي بمقدم الطلب</h3>
+                                                                <div class="">
+                                                                    <select class="form-control select-item-2 py-0 w-100">
+                                                                        <option value="1">أب</option>
+                                                                        <option value="2">أم</option>
+                                                                        <option value="2">أخ</option>
+                                                                        <option value="2">أخت</option>
+                                                                        <option value="2">عم</option>
+                                                                        <option value="2">خال</option>
+                                                                        <option value="2">صديق</option>
+                                                                        <option value="2">أخرى</option>
+                                                                    </select>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-12 col-sm-6 mb-3">
+                                                                <h3 class="fs-6 p-0">رقم جوال مقدم الطلب</h3>
+                                                                <input type="text" class="form-control" id="" aria-describedby="" />
+                                                            </div>
+                                                            <div class="col-12 col-sm-6 mb-3">
+                                                                <h3 class="fs-6 p-0">رقم جوال إضافي</h3>
+                                                                <input type="text" class="form-control" id="" aria-describedby="" />
+                                                            </div>
+                                                            <div class="col-12 col-sm-6 mb-3">
+                                                                <h3 class="fs-6 p-0">ملاحظة</h3>
+                                                                <input type="text" class="form-control" id="" aria-describedby="" />
                                                             </div>
                                                         </form>
                                                     </div>
@@ -483,6 +507,20 @@
     <script>
         AOS.init({
             duration: 1200,
+        });
+    </script>
+    <script>
+        $(function() {
+            $('.toggle_select2').hide();
+            $('#flexSwitchCheckChecked').change(function() {
+                if ($(this).is(':checked')) {
+                    $('.toggle_select1').show();
+                    $('.toggle_select2').hide();
+                } else {
+                    $('.toggle_select1').hide();
+                    $('.toggle_select2').show();
+                };
+            });
         });
     </script>
     <script src="assets/js/steps_script.js"></script>
